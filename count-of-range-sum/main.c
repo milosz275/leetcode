@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <limits.h>
 
 #define NUM_SIZE 3
 #define LOWER -2
@@ -62,11 +61,11 @@ int countRangeSum(int* nums, int numsSize, int lower, int upper)
     return rangeCount;
 }
 
-int init()
+int main()
 {
     int nums[NUM_SIZE] = { -2, 5, -1 };
     int result = countRangeSum(nums, NUM_SIZE, LOWER, UPPER);
     printf("Range sum count: %d\n", result);
-
     free(sums);
+    exit(EXIT_SUCCESS);
 }
