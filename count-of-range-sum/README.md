@@ -28,4 +28,4 @@ Explanation: The three ranges are : [0,0], [2,2], [0,2] and their respective sum
 
 ## Link
 
-[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum)
+[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)
