@@ -1,5 +1,7 @@
 # Leetcode
 
+[![CodeQL](https://github.com/mldxo/leetcode/actions/workflows/codeql.yml/badge.svg)](https://github.com/mldxo/leetcode/actions/workflows/codeql.yml)
+
 This is a repository for my solutions to Leetcode problems. I will be solving problems in C, at least one daily. I will also be providing explanations for my solutions. There will be updates to this repository as I solve more problems. Coding convention in this repo is camelCase opposite to the rest of my repositories.
 
 ## All Problems
