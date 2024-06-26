@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    - cron: '33 10 * * 5'
+    - cron: '25 6 * * 4'
 
 jobs:
   analyze:
@@ -15,7 +15,9 @@ jobs:
     timeout-minutes: ${{ (matrix.language == 'swift' && 120) || 360 }}
     permissions:
       security-events: write
+
       packages: read
+
       actions: read
       contents: read
 
@@ -25,7 +27,6 @@ jobs:
         include:
         - language: c-cpp
           build-mode: autobuild
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
@@ -35,6 +36,12 @@ jobs:
       with:
         languages: ${{ matrix.language }}
         build-mode: ${{ matrix.build-mode }}
+
+    - if: matrix.build-mode == 'manual'
+      shell: bash
+      run: |
+        # echo '  make bootstrap'
+        exit 1
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
