@@ -3,6 +3,7 @@
         "stdio.h": "c"
     },
     "cSpell.words": [
+        "atoi",
         "Leetcode",
         "nums",
         "Subarray",
