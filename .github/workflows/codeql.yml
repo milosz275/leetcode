@@ -40,7 +40,7 @@ jobs:
     - if: matrix.build-mode == 'manual'
       shell: bash
       run: |
-        make -C ${{ github.workspace }} build
+        make
         exit 1
 
     - name: Perform CodeQL Analysis
