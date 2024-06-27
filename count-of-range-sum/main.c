@@ -13,28 +13,28 @@ struct Sum
 };
 
 struct Sum *sums;
-int currentSize = 0;
+int current_size = 0;
 
-long getSum(long x, long y)
+long get_sum(long x, long y)
 {
-    for (int i = 0; i < currentSize; ++i)
+    for (int i = 0; i < current_size; ++i)
         if ((sums[i].x == x && sums[i].y == y) || (sums[i].y == x && sums[i].x == y))
             return sums[i].sum;
-    
-    sums = (struct Sum *)realloc(sums, sizeof(struct Sum) * (currentSize + 1));
+
+    sums = (struct Sum *)realloc(sums, sizeof(struct Sum) * (current_size + 1));
     if (sums == NULL)
     {
         fprintf(stderr, "Memory allocation failed\n");
         exit(EXIT_FAILURE);
     }
-    sums[currentSize].x = x;
-    sums[currentSize].y = y;
-    sums[currentSize].sum = x + y;
-    currentSize++;
-    return sums[currentSize - 1].sum;
+    sums[current_size].x = x;
+    sums[current_size].y = y;
+    sums[current_size].sum = x + y;
+    current_size++;
+    return sums[current_size - 1].sum;
 }
 
-int countRangeSum(int* nums, int numsSize, int lower, int upper)
+int count_range_sum(int* nums, int nums_size, int lower, int upper)
 {
     sums = (struct Sum *)malloc(sizeof(struct Sum) * 1);
     if (sums == NULL)
@@ -45,15 +45,15 @@ int countRangeSum(int* nums, int numsSize, int lower, int upper)
     sums[0].x = 0;
     sums[0].y = 0;
     sums[0].sum = 0;
-    currentSize = 1;
+    current_size = 1;
 
     int rangeCount = 0;
-    for (int i = 0; i < numsSize; ++i)
+    for (int i = 0; i < nums_size; ++i)
     {
         long sum = 0;
-        for (int j = i; j < numsSize; ++j)
+        for (int j = i; j < nums_size; ++j)
         {
-            sum = getSum(sum, nums[j]);
+            sum = get_sum(sum, nums[j]);
             if (sum >= lower && sum <= upper)
                 rangeCount++;
         }
@@ -64,7 +64,7 @@ int countRangeSum(int* nums, int numsSize, int lower, int upper)
 int main()
 {
     int nums[NUM_SIZE] = { -2, 5, -1 };
-    int result = countRangeSum(nums, NUM_SIZE, LOWER, UPPER);
+    int result = count_range_sum(nums, NUM_SIZE, LOWER, UPPER);
     printf("Range sum count: %d\n", result);
     free(sums);
     exit(EXIT_SUCCESS);

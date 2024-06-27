@@ -9,9 +9,10 @@ int reverse(int number)
 {
     if (number == 0)
         return 0;
-    int digits = snprintf(NULL, 0, "%d", number);
     if ((number > (1LL << 31) - 1) || (number < -(1LL << 31)))
         return 0;
+
+    int digits = snprintf(NULL, 0, "%d", number);
     char* string_number = malloc(digits + 1);
     snprintf(string_number, digits + 1, "%d", number);
 
