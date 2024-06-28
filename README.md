@@ -2,13 +2,14 @@
 
 [![CodeQL](https://github.com/mldxo/leetcode/actions/workflows/codeql.yml/badge.svg)](https://github.com/mldxo/leetcode/actions/workflows/codeql.yml)
 
-This is a repository for my solutions to Leetcode problems. I will be solving problems in C, at least one daily. I will also be providing explanations for my solutions. There will be updates to this repository as I solve more problems. Coding convention in this repo is camelCase opposite to the rest of my repositories.
+This is a repository for my solutions to Leetcode problems. I will be solving problems in C, at least one daily. I will also be providing explanations for my solutions. There will be updates to this repository as I solve more problems. Coding convention in this repo snake_case, which is not compatible with Leetcode's convention.
 
 ## 75
 
 | # | Title | Difficulty | Langs | Passed |
 |---| ----- | ---------- | -------- | ---- |
 | 1 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | [C](merge-strings-alternately/main.c) | ✔️ |
+| 2 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | Easy | [C](greatest-common-divisor-of-strings/main.c) | ✔️ |
 
 ## All Problems
 
@@ -18,6 +19,7 @@ This is a repository for my solutions to Leetcode problems. I will be solving pr
 | 2 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | Medium | [C](subarray-product-less-than-k/main.c) | ✔️ |
 | 3 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | [C](reverse-integer/main.c) | ✔️ |
 | 4 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | [C](merge-strings-alternately/main.c) | ✔️ |
+| 5 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | Easy | [C](greatest-common-divisor-of-strings/main.c) | ✔️ |
 <!-- This marks table end for mldxo.github.io/leetcode scraper -->
 
 ## License
