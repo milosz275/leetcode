@@ -4,7 +4,7 @@
 
 Hard
 
-## My solution in C
+**Remark:**
 
 This solution is correct but not time efficient. It only passes 54/67 test cases.
 
