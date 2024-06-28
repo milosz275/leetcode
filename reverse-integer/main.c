@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define NUM_SIZE 3
-#define LOWER -2
-#define UPPER 2
-
 int reverse(int number)
 {
     if (number == 0)
