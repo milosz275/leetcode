@@ -4,6 +4,12 @@
 
 This is a repository for my solutions to Leetcode problems. I will be solving problems in C, at least one daily. I will also be providing explanations for my solutions. There will be updates to this repository as I solve more problems. Coding convention in this repo is camelCase opposite to the rest of my repositories.
 
+## 75
+
+| # | Title | Difficulty | Langs | Passed |
+|---| ----- | ---------- | -------- | ---- |
+| 1 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | [C](merge-strings-alternately/main.c) | ✔️ |
+
 ## All Problems
 
 | # | Title | Difficulty | Langs | Passed |
