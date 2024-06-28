@@ -6,11 +6,12 @@ This is a repository for my solutions to Leetcode problems. I will be solving pr
 
 ## All Problems
 
-| # | Title | Difficulty | Lang | Pass |
+| # | Title | Difficulty | Langs | Passed |
 |---| ----- | ---------- | -------- | ---- |
 | 1 | [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | Hard | [C](count-of-range-sum/main.c) | ❌ |
 | 2 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | Medium | [C](subarray-product-less-than-k/main.c) | ✔️ |
 | 3 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | [C](reverse-integer/main.c) | ✔️ |
+| 4 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | [C](merge-strings-alternately/main.c) | ✔️ |
 <!-- This marks table end for mldxo.github.io/leetcode scraper -->
 
 ## License
