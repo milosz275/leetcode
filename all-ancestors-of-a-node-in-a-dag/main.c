@@ -3,6 +3,19 @@
 #include <assert.h>
 #include <stdbool.h>
 
+int compare(const void* a, const void* b)
+{
+    int int_a = *((int*) a);
+    int int_b = *((int*) b);
+
+    if (int_a == int_b)
+        return 0;
+    else if (int_a < int_b)
+        return -1;
+    else
+        return 1;
+}
+
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -10,16 +23,21 @@
  */
 int **getAncestors(int n, int **edges, int edgesSize, int *edgesColSize, int *returnSize, int **returnColumnSizes)
 {
+    // preallocation
     *returnSize = n;
     *returnColumnSizes = (int *)malloc(sizeof(int) * n);
     int **array = (int **)malloc(sizeof(int *) * *returnSize);
     for (int i = 0; i < n; ++i)
     {
         array[i] = (int *)malloc(sizeof(int) * n);
+        for (int j = 0; j < n; ++j)
+            array[i][j] = -1;
         (*returnColumnSizes)[i] = 0;
     }
 
     int edge_list[9][2] = {{0,3},{0,4},{1,3},{2,4},{2,7},{3,5},{3,6},{3,7},{4,6}};
+
+    // handling edges one by one
     for (int i = 0; i < edgesSize; ++i)
     {
         assert(edges[i][0] == edge_list[i][0] && edges[i][1] == edge_list[i][1]);
@@ -30,7 +48,7 @@ int **getAncestors(int n, int **edges, int edgesSize, int *edgesColSize, int *re
 
         // setting j to point after last member
         int j = 0;
-        while (array[child][j] != 0 && j < n - 1) j++;
+        while (array[child][j] != -1 && j < n - 1) j++;
         if (j == n - 1)
         {
             fprintf(stderr, "Array is full, cannot add new ancestor\n");
@@ -58,6 +76,11 @@ int **getAncestors(int n, int **edges, int edgesSize, int *edgesColSize, int *re
 
         assert(edges[i][0] == edge_list[i][0] && edges[i][1] == edge_list[i][1]);
     }
+
+    // sort results
+    for (int i = 0; i < n; ++i)
+        qsort(array[i], (*returnColumnSizes)[i], sizeof(int), compare);
+
     printf("Successfully exited getting ancestors.\n");
     return array;
 }
@@ -74,9 +97,6 @@ int main()
     int return_size = n;
     int *return_column_sizes = NULL;
     int **array = getAncestors(n, edges, edges_size, &edges_col_size, &return_size, &return_column_sizes);
-    
-    for (int i = 0; i < n; ++i)
-        printf("Node %d - Return column size: %d\n", i, return_column_sizes[i]);
 
     for (int i = 0; i < n; ++i)
     {
