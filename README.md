@@ -2,7 +2,9 @@
 
 [![CodeQL](https://github.com/mldxo/leetcode/actions/workflows/codeql.yml/badge.svg)](https://github.com/mldxo/leetcode/actions/workflows/codeql.yml)
 
-This is a repository for my solutions to Leetcode problems. I will be solving problems in C, at least one daily. I will also be providing explanations for my solutions. There will be updates to this repository as I solve more problems. Coding convention in this repo snake_case, which is not compatible with Leetcode's convention.
+This is a repository for my solutions to Leetcode problems. I will be solving problems in C, C++ and Python. There will be at least one problem solved every day. I will also be providing explanations for my solutions.
+
+Watch me fail, try and grow.
 
 ## 75
 
@@ -26,11 +28,3 @@ This is a repository for my solutions to Leetcode problems. I will be solving pr
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-* [Leetcode](https://leetcode.com/)
-
-## Contact
-
-You can reach me [here](https://mldxo.github.io/).
