@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
+#include <stdbool.h>
 
 /**
  * Return an array of arrays of size *returnSize.
@@ -10,40 +11,50 @@
 int **getAncestors(int n, int **edges, int edgesSize, int *edgesColSize, int *returnSize, int **returnColumnSizes)
 {
     *returnSize = n;
+    *returnColumnSizes = (int *)malloc(sizeof(int) * n);
     int **array = (int **)malloc(sizeof(int *) * *returnSize);
     for (int i = 0; i < n; ++i)
-        array[i] = NULL;
-
+    {
+        array[i] = (int *)malloc(sizeof(int) * n);
+        (*returnColumnSizes)[i] = 0;
+    }
 
     int edge_list[9][2] = {{0,3},{0,4},{1,3},{2,4},{2,7},{3,5},{3,6},{3,7},{4,6}};
     for (int i = 0; i < edgesSize; ++i)
     {
         assert(edges[i][0] == edge_list[i][0] && edges[i][1] == edge_list[i][1]);
+
+        // current path
         int ancestor = edges[i][0];
         int child = edges[i][1];
-        if (array[child] == NULL)
+
+        // setting j to point after last member
+        int j = 0;
+        while (array[child][j] != 0 && j < n - 1) j++;
+        if (j == n - 1)
         {
-            printf("Creating array for node %d\n", child);
-            array[child] = (int *)calloc(n, sizeof(int));
-            if (array[child] == NULL)
-            {
-                fprintf(stderr, "Memory allocation failed\n");
-                exit(EXIT_FAILURE);
-            }
-            array[child][0] = ancestor;
+            fprintf(stderr, "Array is full, cannot add new ancestor\n");
+            exit(EXIT_FAILURE);
         }
-        else
-        {
-            printf("Adding ancestor %d to node %d\n", ancestor, child);
-            int j = 0;
-            while (array[child][j] != 0 && j < n - 1) j++;
-            if (j == n - 1)
+
+        // indirect ancestors
+        if (array[ancestor])
+            for (int k = 0; k < (*returnColumnSizes)[ancestor]; ++k)
             {
-                fprintf(stderr, "Array is full, cannot add new ancestor\n");
-                exit(EXIT_FAILURE);
+                printf("Adding not-direct ancestor %d to node %d\n", array[ancestor][k], child);
+                array[child][j] = array[ancestor][k];
+                (*returnColumnSizes)[child]++;
+                j++;
+                if (j == n - 1)
+                {
+                    fprintf(stderr, "Array is full, cannot add new ancestor\n");
+                    exit(EXIT_FAILURE);
+                }
             }
-            array[child][j] = ancestor;
-        }
+
+        printf("Adding ancestor %d to node %d\n", ancestor, child);
+        array[child][j] = ancestor;
+        (*returnColumnSizes)[child]++;
 
         assert(edges[i][0] == edge_list[i][0] && edges[i][1] == edge_list[i][1]);
     }
@@ -61,11 +72,19 @@ int main()
         edges[i] = edge_list[i];
     int edges_col_size = 2;
     int return_size = n;
-    int *return_column_sizes = (int *)malloc(sizeof(int) * n);
+    int *return_column_sizes = NULL;
     int **array = getAncestors(n, edges, edges_size, &edges_col_size, &return_size, &return_column_sizes);
     
     for (int i = 0; i < n; ++i)
         printf("Node %d - Return column size: %d\n", i, return_column_sizes[i]);
+
+    for (int i = 0; i < n; ++i)
+    {
+        printf("Node %d:\n", i);
+        for (int j = 0; j < return_column_sizes[i]; ++j)
+            printf("%d ", array[i][j]);
+        putchar('\n');
+    }
 
     exit(EXIT_SUCCESS);
 }
