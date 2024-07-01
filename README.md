@@ -21,6 +21,7 @@ This is a repository for my solutions to Leetcode problems. I will be solving pr
 | 4 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | [C](merge-strings-alternately/main.c) | ✔️ |
 | 5 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | Easy | [C](greatest-common-divisor-of-strings/main.c) | ✔️ |
 | 6 | [All Ancestors of a Node in a Directed Acyclic Graph](all-ancestors-of-a-node-in-a-directed-acyclic-graph/) | Medium | [C](all-ancestors-of-a-node-in-a-dag/main.c) | ❌ |
+| 7 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | Easy | [C](kids-with-the-greatest-number-of-candies/main.c) | ✔️ |
 <!-- This marks table end for mldxo.github.io/leetcode scraper -->
 
 ## License
