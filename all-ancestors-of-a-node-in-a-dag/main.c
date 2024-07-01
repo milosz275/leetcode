@@ -32,8 +32,9 @@ int remove_duplicates_in_sorted_array(int *array, int size)
     return j + 1;
 }
 
-void bubble_sort_array_of_arrays(int **array, int size, int col_size)
+void bubble_sort_array_of_arrays(int **array, int size, int *col_size)
 {
+    *col_size = 2;
     for (int i = 0; i < size - 1; ++i)
     {
         if (array[i][0] > array[i + 1][0])
@@ -54,7 +55,7 @@ void bubble_sort_array_of_arrays(int **array, int size, int col_size)
 int **getAncestors(int n, int **edges, int edgesSize, int *edgesColSize, int *returnSize, int **returnColumnSizes)
 {
     // sorting input array of arrays by first element
-    bubble_sort_array_of_arrays(edges, edgesSize, *edgesColSize);
+    bubble_sort_array_of_arrays(edges, edgesSize, edgesColSize);
     for (int i = 0; i < edgesSize; ++i)
         printf("%d %d\n", edges[i][0], edges[i][1]);
 

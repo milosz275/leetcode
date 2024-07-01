@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int reverse(int number)
+int reverse(long number)
 {
     if (number == 0)
         return 0;
     if ((number > (1LL << 31) - 1) || (number < -(1LL << 31)))
         return 0;
 
-    int digits = snprintf(NULL, 0, "%d", number);
+    int digits = snprintf(NULL, 0, "%ld", number);
     char* string_number = malloc(digits + 1);
-    snprintf(string_number, digits + 1, "%d", number);
+    snprintf(string_number, digits + 1, "%ld", number);
 
     char* reversed_string_number = malloc(digits + 1);
     for (int i = 0; i < digits; ++i)
@@ -29,8 +29,8 @@ int reverse(int number)
 
 int main()
 {
-    int number = 1534236469;
-    int reversed_number = reverse(number);
-    printf("Reverse int: %d\n", reversed_number);
+    long number = 1534236469;
+    long reversed_number = reverse(number);
+    printf("Reverse int: %ld\n", reversed_number);
     exit(EXIT_SUCCESS);
 }
