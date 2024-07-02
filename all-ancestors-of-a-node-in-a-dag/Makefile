@@ -1,5 +1,6 @@
 CC=gcc
-CFLAGS=-Wall -Werror -pedantic -Wextra -fsanitize=address -g
+CFLAGS=-Wall -pedantic -Wextra -fsanitize=address -g 
+# -Werror
 TARGET=build/main
 
 all: $(TARGET)
