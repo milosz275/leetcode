@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Problems</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            font-family: sans-serif;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+        thead tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: left;
+        }
+        th, td {
+            padding: 12px 15px;
+        }
+        tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+    
+        tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+    
+        tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+        }
+    
+        tbody tr.active-row {
+            font-weight: bold;
+            color: #009879;
+        }
+    </style>
+</head>
+<body>
+    <div id="markdownTable"></div>
+
+    <script>
+        async function fetchMarkdown() {
+            const url = 'https://raw.githubusercontent.com/mldxo/leetcode/main/README.md';
+            const response = await fetch(url);
+            const data = await response.text();
+            return data;
+        }
+    
+        function extractTable(markdown) {
+            const tableStart = markdown.indexOf("## All Problems");
+            let tableEnd = markdown.indexOf("## License");
+            const commentEndIndex = markdown.indexOf("<!--");
+            if (commentEndIndex !== -1 && commentEndIndex < tableEnd) {
+                tableEnd = commentEndIndex;
+            }
+            let tableMarkdown = markdown.substring(tableStart, tableEnd);
+            return tableMarkdown;
+        }
+
+        function prependGitHubURL(tableMarkdown) {
+            const githubBaseURL = 'https://github.com/mldxo/leetcode/blob/main/';
+            const regex = /\[([^\]]+)\]\(([^)]+\.(c|cpp|py))\)/g;
+            const modifiedMarkdown = tableMarkdown.replace(regex, (match, linkText, filePath) => {
+                return `[${linkText}](${githubBaseURL}${filePath})`;
+            });
+            return modifiedMarkdown;
+        }
+    
+        function displayTable(tableMarkdown) {
+            const html = marked.parse(tableMarkdown);
+            document.getElementById('markdownTable').innerHTML = html;
+            makeHeadersSortable();
+            addCursorPointerToHeaders();
+        }
+        
+        function addCursorPointerToHeaders() {
+            const style = document.createElement('style');
+            style.type = 'text/css';
+            style.innerHTML = `#markdownTable th { cursor: pointer; }`;
+            document.getElementsByTagName('head')[0].appendChild(style);
+        }
+
+        function makeHeadersSortable() {
+            const table = document.querySelector('#markdownTable table');
+            if (!table) return;
+            const headers = table.querySelectorAll('th');
+            const tableBody = table.querySelector('tbody');
+            const rows = Array.from(tableBody.querySelectorAll('tr'));
+        
+            const difficultyOrder = { 'Easy': 1, 'Medium': 2, 'Hard': 3 };
+        
+            const getCellValue = (row, index) => row.children[index].innerText || row.children[index].textContent;
+        
+            const comparer = (index, asc) => (a, b) => {
+                if (headers[index].textContent.replace(/ \u2193|\u2191/, '') === 'Difficulty') {
+                    return (asc ? 1 : -1) * (difficultyOrder[getCellValue(a, index)] - difficultyOrder[getCellValue(b, index)]);
+                } else {
+                    const valueA = getCellValue(a, index), valueB = getCellValue(b, index);
+                    return valueA !== '' && valueB !== '' && !isNaN(valueA) && !isNaN(valueB) ? 
+                        (asc ? 1 : -1) * (valueA - valueB) : 
+                        (asc ? 1 : -1) * valueA.toString().localeCompare(valueB);
+                }
+            };
+        
+            headers.forEach((header, index) => {
+                header.addEventListener('click', () => {
+                    const currentSort = header.getAttribute('data-sort');
+                    const newSort = currentSort === 'asc' ? 'desc' : 'asc';
+                    headers.forEach(h => {
+                        h.setAttribute('data-sort', '');
+                        h.textContent = h.textContent.replace(/ \u2193|\u2191/, '');
+                    });
+                    header.setAttribute('data-sort', newSort);
+            
+                    header.textContent += newSort === 'asc' ? ' \u2193' : ' \u2191';
+            
+                    const isDifficulty = header.textContent.includes('Difficulty');
+                    rows.sort((a, b) => {
+                        let valueA = getCellValue(a, index);
+                        let valueB = getCellValue(b, index);
+            
+                        if (isDifficulty) {
+                            valueA = difficultyOrder[valueA];
+                            valueB = difficultyOrder[valueB];
+                        } else {
+                            valueA = isNaN(valueA) ? valueA : parseFloat(valueA);
+                            valueB = isNaN(valueB) ? valueB : parseFloat(valueB);
+                        }
+            
+                        if (valueA < valueB) return newSort === 'asc' ? -1 : 1;
+                        if (valueA > valueB) return newSort === 'asc' ? 1 : -1;
+                        return 0;
+                    }).forEach(row => tableBody.appendChild(row));
+                });
+            });
+        }
+    
+        async function init() {
+            const markdown = await fetchMarkdown();
+            let tableMarkdown = extractTable(markdown);
+            tableMarkdown = prependGitHubURL(tableMarkdown);
+            displayTable(tableMarkdown);
+        }
+    
+        init();
+    </script>
+</body>
+</html>
