@@ -1,6 +1,8 @@
-SUBDIRS := $(wildcard */.)
+SUBDIRS := $(filter-out docs/, $(wildcard */))
 
 all: $(SUBDIRS)
+	@echo "Successfully build all subdirectories."
+
 $(SUBDIRS):
 	$(MAKE) -C $@
 
