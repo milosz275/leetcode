@@ -4,48 +4,8 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
-
-/**
- * Compare function for qsort.
- * 
- * @param a: the first element to be compared
- * @param b: the second element to be compared
- * @return: 0 if the elements are equal, -1 if the first element is smaller than the second element, 1 if the first element is greater than the second element
- */
-int compare(const void *a, const void *b)
-{
-    int int_a = *((int*) a);
-    int int_b = *((int*) b);
-
-    if (int_a == int_b)
-        return 0;
-    else if (int_a < int_b)
-        return -1;
-    else
-        return 1;
-}
-
-/**
- * Bubble sort for an array of arrays. Sorts the array of arrays by the first element of each array.
- * 
- * @param array: the array of arrays to be sorted
- * @param size: the size of the array of arrays
- * @param col_size: the size of the arrays in the array of arrays
- */
-void bubble_sort_array_of_arrays(int **array, int size, int *col_size)
-{
-    *col_size = 2;
-    for (int i = 0; i < size - 1; ++i)
-    {
-        if (array[i][0] > array[i + 1][0])
-        {
-            int *temp = array[i];
-            array[i] = array[i + 1];
-            array[i + 1] = temp;
-            i = -1;
-        }
-    }
-}
+#include "compare.c"
+#include "bubble_sort_array_of_arrays.c"
 
 /**
  * Node structure for the graph.
@@ -75,8 +35,6 @@ struct Node *create_node(int id)
     node->children_count = 0;
     return node;
 }
-
-
 
 /**
  * Return an array of arrays of size *returnSize.
