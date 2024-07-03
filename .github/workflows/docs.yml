@@ -1,4 +1,4 @@
-name: Doxygen Pages
+name: Docs
 
 on:
   push:
