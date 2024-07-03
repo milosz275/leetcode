@@ -251,15 +251,15 @@ int main()
     // int edge_list[13][2] = {{0,3},{5,0},{2,3},{4,3},{5,3},{1,3},{2,5},{0,1},{4,5},{4,2},{4,0},{2,1},{5,1}};
     // int *edges[13] = {NULL};
 
-    // int n = 9;
-    // int edges_size = 13;
-    // int edge_list[13][2] = {{3,6},{2,4},{8,6},{7,4},{1,4},{2,1},{7,2},{0,4},{5,0},{4,6},{3,2},{5,6},{1,6}};
-    // int *edges[13] = {NULL};
+    int n = 9;
+    int edges_size = 13;
+    int edge_list[13][2] = {{3,6},{2,4},{8,6},{7,4},{1,4},{2,1},{7,2},{0,4},{5,0},{4,6},{3,2},{5,6},{1,6}};
+    int *edges[13] = {NULL};
 
-    int n = 6;
-    int edges_size = 0;
-    int edge_list[0][0] = {{}};
-    int *edges[0] = {NULL};
+    // int n = 6;
+    // int edges_size = 0;
+    // int edge_list[0][0] = {{}};
+    // int *edges[0] = {NULL};
 
     for (int i = 0; i < edges_size; ++i)
         edges[i] = edge_list[i];
