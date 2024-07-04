@@ -4,10 +4,6 @@
 
 Medium
 
-**Note:**
-
-This solution exceeds time limits and requires refactoring using graph traversal algorithms.
-
 ## Question
 
 You are given a positive integer `n` representing the number of nodes of a Directed Acyclic Graph (DAG). The nodes are numbered from `0` to `n - 1`.

@@ -1,13 +1,12 @@
-CC=gcc
+CC=g++
 CFLAGS=-Wall -pedantic -Wextra -fsanitize=address -g 
-# -Werror
 TARGET=build/main
 
 all: $(TARGET)
 
-$(TARGET): main.c
+$(TARGET): main.cpp
 	mkdir -p build
-	$(CC) $(CFLAGS) main.c -o $(TARGET)
+	$(CC) $(CFLAGS) main.cpp -o $(TARGET)
 
 clean:
 	rm -rf build/
