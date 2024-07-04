@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "stdbool.h": "c"
+        "stdbool.h": "c",
+        "queue": "cpp"
     },
     "cSpell.words": [
         "atoi",
