@@ -28,6 +28,7 @@ This is a repository for my solutions to Leetcode problems. I will be solving pr
 | 8 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | [C](reverse-words-in-a-string/main.c) | [Doxygen](https://mldxo.github.io/leetcode/reverse-words-in-a-string/) | ✔️ |
 | 9 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | [C](intersection-of-two-arrays-ii/main.c) | [Doxygen](https://mldxo.github.io/leetcode/intersection-of-two-arrays-ii/) | ✔️ |
 | 10 | [Water Bottles](https://leetcode.com/problems/water-bottles/) | Easy | [C](water-bottles/main.c) | [Doxygen](https://mldxo.github.io/leetcode/water-bottles/) | ✔️ |
+| 11 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | Hard | [C](wildcard-matching/main.c) | [Doxygen](https://mldxo.github.io/leetcode/wildcard-matching/) | ✔️ |
 <!-- This marks table end for mldxo.github.io/leetcode scraper -->
 
 ## License
