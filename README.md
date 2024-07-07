@@ -3,9 +3,7 @@
 [![CodeQL](https://github.com/mldxo/leetcode/actions/workflows/codeql.yml/badge.svg)](https://github.com/mldxo/leetcode/actions/workflows/codeql.yml)
 [![Docs](https://github.com/mldxo/leetcode/actions/workflows/docs.yml/badge.svg)](https://github.com/mldxo/leetcode/actions/workflows/docs.yml)
 
-This is a repository for my solutions to Leetcode problems. I will be solving problems in C, C++ and Python. There will be at least one problem solved every day. I will also be providing explanations for my solutions.
-
-Watch me fail, try and grow.
+This is a repository for my solutions to Leetcode problems. I will be solving problems in C, C++ and Python. There will be at least one problem solved every day. Explanations solutions will be provided with documentation generated in Doxygen and Sphinx. CamelCase is used for Leetcode functions and snake_case is the rest of the code.
 
 ## 75
 
@@ -29,6 +27,7 @@ Watch me fail, try and grow.
 | 7 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | Easy | [C](kids-with-the-greatest-number-of-candies/main.c) | [Doxygen](https://mldxo.github.io/leetcode/kids-with-the-greatest-number-of-candies/) | ✔️ |
 | 8 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | [C](reverse-words-in-a-string/main.c) | [Doxygen](https://mldxo.github.io/leetcode/reverse-words-in-a-string/) | ✔️ |
 | 9 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | [C](intersection-of-two-arrays-ii/main.c) | [Doxygen](https://mldxo.github.io/leetcode/intersection-of-two-arrays-ii/) | ✔️ |
+| 10 | [Water Bottles](https://leetcode.com/problems/water-bottles/) | Easy | [C](water-bottles/main.c) | [Doxygen](https://mldxo.github.io/leetcode/water-bottles/) | ✔️ |
 <!-- This marks table end for mldxo.github.io/leetcode scraper -->
 
 ## License
