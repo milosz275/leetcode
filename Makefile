@@ -1,4 +1,4 @@
-SUBDIRS := $(filter-out docs/, $(wildcard */))
+SUBDIRS := $(shell find . -mindepth 2 -type f -name Makefile | sed 's|/[^/]*$$||' | sort -u | grep -v './docs')
 
 all: $(SUBDIRS)
 	@echo "Successfully build all subdirectories."

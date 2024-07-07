@@ -1,10 +1,10 @@
 # Doxyfile 1.11.0
 
-PROJECT_NAME           = "count-of-range-sum"
+PROJECT_NAME           = "wildcard-matching"
 PROJECT_NUMBER         = "1.0.0"
-PROJECT_BRIEF          = "Count of Range Sum"
+PROJECT_BRIEF          = "Wildcard Matching"
 
-OUTPUT_DIRECTORY       = ../docs/count-of-range-sum
+OUTPUT_DIRECTORY       = ../docs/wildcard-matching
 CREATE_SUBDIRS         = NO
 OPTIMIZE_OUTPUT_FOR_C  = YES
 OPTIMIZE_OUTPUT_JAVA   = NO
@@ -47,7 +47,7 @@ SERVER_BASED_SEARCH    = NO
 GENERATE_TREEVIEW      = YES
 DISABLE_INDEX = NO
 FULL_SIDEBAR = NO
-HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css
+HTML_EXTRA_STYLESHEET  = /usr/local/share/doxygen-awesome-css/doxygen-awesome.css
 HTML_COLORSTYLE        = LIGHT
 
 INPUT                  = .
