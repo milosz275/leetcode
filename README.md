@@ -29,6 +29,7 @@ This is a repository for my solutions to Leetcode problems. I will be solving pr
 | 9 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | [C](intersection-of-two-arrays-ii/main.c) | [Doxygen](https://mldxo.github.io/leetcode/intersection-of-two-arrays-ii/) | ✔️ |
 | 10 | [Water Bottles](https://leetcode.com/problems/water-bottles/) | Easy | [C](water-bottles/main.c) | [Doxygen](https://mldxo.github.io/leetcode/water-bottles/) | ✔️ |
 | 11 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | Hard | [C](wildcard-matching/main.c) | [Doxygen](https://mldxo.github.io/leetcode/wildcard-matching/) | ✔️ |
+| 12 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | Medium | [Python](maximum-level-sum-of-a-binary-tree/main.py) | [Sphinx](https://mldxo.github.io/leetcode/maximum-level-sum-of-a-binary-tree/) | ➖ |
 <!-- This marks table end for mldxo.github.io/leetcode scraper -->
 
 ## License
