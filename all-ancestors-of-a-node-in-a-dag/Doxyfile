@@ -50,8 +50,9 @@ FULL_SIDEBAR = NO
 HTML_EXTRA_STYLESHEET  = /usr/local/share/doxygen-awesome-css/doxygen-awesome.css
 HTML_COLORSTYLE        = LIGHT
 
-INPUT                  = .
-FILE_PATTERNS          = *.cpp *.h
+INPUT                  = . ./README.md
+FILE_PATTERNS          = *.cpp *.h *.md
+USE_MDFILE_AS_MAINPAGE = ./README.md
 RECURSIVE              = YES
 EXCLUDE_PATTERNS       = */build/*
 SKIP_FUNCTION_MACROS   = YES
