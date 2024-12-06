@@ -7,14 +7,19 @@ table {
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
+
+/* Table header */
 thead tr {
     background-color: #009879;
     color: #ffffff;
     text-align: left;
 }
-th, td {
+
+th,
+td {
     padding: 12px 15px;
 }
+
 tbody tr {
     border-bottom: 1px solid #dddddd;
 }
@@ -30,4 +35,36 @@ tbody tr:last-of-type {
 tbody tr.active-row {
     font-weight: bold;
     color: #009879;
+}
+
+html h2 {
+    color: #000000;
+    margin: 25px 15px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* Dark theme */
+html.dark table {
+    color: #ffffff;
+}
+
+html.dark thead tr {
+    color: #ffffff;
+}
+
+html.dark tbody tr:nth-of-type(even) {
+    background-color: #71717178;
+}
+
+html.dark tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+html.dark tbody tr.active-row {
+    color: #ffffff;
+}
+
+html.dark h2 {
+    color: #ffffff;
 }

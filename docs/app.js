@@ -94,6 +94,24 @@ function makeHeadersSortable() {
     });
 }
 
+function loadDarkMode() {
+    let darkMode = localStorage.getItem("dark");
+    if (darkMode === null) {
+        darkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    } else {
+        darkMode = JSON.parse(darkMode);
+    }
+    document.documentElement.classList.toggle("dark", darkMode);
+}
+
+document.addEventListener("DOMContentLoaded", loadDarkMode);
+
+function toggleDarkMode() {
+    document.documentElement.classList.toggle("dark");
+    let darkMode = document.documentElement.classList.contains("dark");
+    localStorage.setItem("dark", JSON.stringify(darkMode));
+}
+
 async function init() {
     const markdown = await fetchMarkdown();
     let tableMarkdown = extractTable(markdown);
