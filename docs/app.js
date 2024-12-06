@@ -1,5 +1,5 @@
 async function fetchMarkdown() {
-    const url = 'https://raw.githubusercontent.com/mldxo/leetcode/main/README.md';
+    const url = 'https://raw.githubusercontent.com/milosz275/leetcode/main/README.md';
     const response = await fetch(url);
     const data = await response.text();
     return data;
@@ -17,7 +17,7 @@ function extractTable(markdown) {
 }
 
 function prependGitHubURL(tableMarkdown) {
-    const githubBaseURL = 'https://github.com/mldxo/leetcode/blob/main/';
+    const githubBaseURL = 'https://github.com/milosz275/leetcode/blob/main/';
     const regex = /\[([^\]]+)\]\(([^)]+\.(c|cpp|py))\)/g;
     const modifiedMarkdown = tableMarkdown.replace(regex, (match, linkText, filePath) => {
         return `[${linkText}](${githubBaseURL}${filePath})`;
