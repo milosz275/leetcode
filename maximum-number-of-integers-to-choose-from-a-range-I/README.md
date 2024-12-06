@@ -1,4 +1,4 @@
-# 2554. Wildcard Matching
+# 2554. Maximum Number of Integers to Choose From a Range I
 
 ## Difficulty
 

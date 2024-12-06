@@ -30,6 +30,7 @@ This is a repository for my solutions to Leetcode problems. I will be solving pr
 | 10 | [Water Bottles](https://leetcode.com/problems/water-bottles/) | Easy | [C](water-bottles/main.c) | [Doxygen](https://milosz275.github.io/leetcode/water-bottles/) | ✔️ |
 | 11 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | Hard | [C](wildcard-matching/main.c) | [Doxygen](https://milosz275.github.io/leetcode/wildcard-matching/) | ✔️ |
 | 12 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | Medium | [Python](maximum-level-sum-of-a-binary-tree/main.py) | [Sphinx](https://milosz275.github.io/leetcode/maximum-level-sum-of-a-binary-tree/) | ➖ |
+| 13 | [Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-I/) | Medium | [C++](maximum-number-of-integers-to-choose-from-a-range-I/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/maximum-number-of-integers-to-choose-from-a-range-I/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License

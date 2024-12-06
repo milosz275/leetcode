@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LeetCode Problems</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css/github-markdown.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/icon" href="/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          darkMode: "class"
+        }
+    </script>
     <script src="app.js"></script>
 </head>
-<body>
+<body class="bg-slate-50 dark:bg-gray-800">
     <div id="markdownTable"></div>
 </body>
 </html>
