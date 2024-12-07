@@ -10,15 +10,11 @@ public:
     int maxCount(vector<int>& banned, int n, int maxSum)
     {
         // ban hash map
-        unordered_set<int> ban_map;
+        unordered_set<int> ban_map(banned.begin(), banned.end());
 
         // set up counters
         int sum = 0;
         int count = 0;
-
-        // populate ban hash map
-        for (int element: banned)
-            ban_map.insert(element);
 
         // count elements that are not banned
         for (int i = 1; i <= n; ++i)
