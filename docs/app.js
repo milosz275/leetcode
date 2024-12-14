@@ -1,5 +1,5 @@
 async function fetchMarkdown() {
-    const url = 'https://raw.githubusercontent.com/mldxo/leetcode/main/README.md';
+    const url = 'https://raw.githubusercontent.com/milosz275/leetcode/main/README.md';
     const response = await fetch(url);
     const data = await response.text();
     return data;
@@ -17,7 +17,7 @@ function extractTable(markdown) {
 }
 
 function prependGitHubURL(tableMarkdown) {
-    const githubBaseURL = 'https://github.com/mldxo/leetcode/blob/main/';
+    const githubBaseURL = 'https://github.com/milosz275/leetcode/blob/main/';
     const regex = /\[([^\]]+)\]\(([^)]+\.(c|cpp|py))\)/g;
     const modifiedMarkdown = tableMarkdown.replace(regex, (match, linkText, filePath) => {
         return `[${linkText}](${githubBaseURL}${filePath})`;
@@ -92,6 +92,24 @@ function makeHeadersSortable() {
             }).forEach(row => tableBody.appendChild(row));
         });
     });
+}
+
+function loadDarkMode() {
+    let darkMode = localStorage.getItem("dark");
+    if (darkMode === null) {
+        darkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    } else {
+        darkMode = JSON.parse(darkMode);
+    }
+    document.documentElement.classList.toggle("dark", darkMode);
+}
+
+document.addEventListener("DOMContentLoaded", loadDarkMode);
+
+function toggleDarkMode() {
+    document.documentElement.classList.toggle("dark");
+    let darkMode = document.documentElement.classList.contains("dark");
+    localStorage.setItem("dark", JSON.stringify(darkMode));
 }
 
 async function init() {

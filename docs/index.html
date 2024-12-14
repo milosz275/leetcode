@@ -1,15 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LeetCode Problems</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css/github-markdown.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css/github-markdown.css">
+    <link rel="icon" type="image/icon" href="/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          darkMode: "class",
+        }
+    </script>
     <script src="app.js"></script>
 </head>
-<body>
+<body class="bg-slate-200 dark:bg-gray-800">
     <div id="markdownTable"></div>
+    <div id="darkModeToggle" class="fixed bottom-0 right-0 p-4">
+        <button class="bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-4 py-2 rounded-lg" onclick="toggleDarkMode()">
+            Toggle Dark Mode
+        </button>
+    </div>
 </body>
 </html>
