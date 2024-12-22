@@ -67,5 +67,6 @@
         "subarrays",
         "venv",
         "Wextra"
-    ]
+    ],
+    "github.copilot.editor.enableAutoCompletions": false
 }
