@@ -35,6 +35,12 @@ This is a repository for my solutions to Leetcode problems. I will be solving pr
 | 15 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | [C++](integer-to-roman/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/integer-to-roman/) | ✔️ |
 | 16 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [C++](valid-palindrome/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/valid-palindrome/) | ✔️ |
 | 17 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [C++](reverse-linked-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/reverse-linked-list/) | ✔️ |
+| 18 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | Hard | [C++](basic-calculator/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/basic-calculator/) | ✔️ |
+| 19 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [C++](valid-anagram/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/valid-anagram/) | ✔️ |
+| 20 | [Sort List](https://leetcode.com/problems/sort-list/) | Medium | [C++](sort-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/sort-list/) | ✔️ |
+| 21 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [C++](palindrome-linked-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/palindrome-linked-list/) | ✔️ |
+| 22 | [H-Index](https://leetcode.com/problems/h-index/) | Medium | [C++](h-index/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/h-index/) | ✔️ |
+| 23 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [C++](container-with-most-water/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/container-with-most-water/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
