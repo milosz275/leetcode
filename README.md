@@ -38,6 +38,8 @@ This is a repository for my solutions to Leetcode problems. I will be solving pr
 | 18 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | Hard | [C++](basic-calculator/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/basic-calculator/) | ✔️ |
 | 19 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [C++](valid-anagram/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/valid-anagram/) | ✔️ |
 | 20 | [Sort List](https://leetcode.com/problems/sort-list/) | Medium | [C++](sort-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/sort-list/) | ✔️ |
+| 21 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [C++](palindrome-linked-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/palindrome-linked-list/) | ✔️ |
+| 22 | [H-Index](https://leetcode.com/problems/h-index/) | Medium | [C++](h-index/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/h-index/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
