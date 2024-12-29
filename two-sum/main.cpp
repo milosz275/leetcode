@@ -22,8 +22,8 @@ public:
             }
             complements[nums[i]] = i;
         }
-        for (auto el: complements)
-            cout << "value: " << el.first << "; index: " << el.second << endl;
+        // for (auto el: complements)
+        //     cout << "value: " << el.first << "; index: " << el.second << endl;
         return answer;
     }
 };

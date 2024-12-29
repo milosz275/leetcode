@@ -41,11 +41,11 @@ You can return the answer in any order.
 
 ## Link
 
-[Sort List](https://leetcode.com/problems/two-sum/)
+[Two](https://leetcode.com/problems/two-sum/)
 
 ## Solution
 
 Solution implements hash table to store complements of searched values, and retrieves whether matching pair is found to return indices.
 
 Time complexity: O(n)
-Space complexity: (n)
+Space complexity: O(n)
