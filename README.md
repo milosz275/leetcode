@@ -39,8 +39,11 @@ This is a repository for my solutions to Leetcode problems. I will be solving pr
 | 19 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [C++](valid-anagram/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/valid-anagram/) | ✔️ |
 | 20 | [Sort List](https://leetcode.com/problems/sort-list/) | Medium | [C++](sort-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/sort-list/) | ✔️ |
 | 21 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [C++](palindrome-linked-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/palindrome-linked-list/) | ✔️ |
-| 22 | [H-Index](https://leetcode.com/problems/h-index/) | Medium | [C++](h-index/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/h-index/) | ✔️ |
-| 23 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [C++](container-with-most-water/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/container-with-most-water/) | ✔️ |
+| 22 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) | Medium | [C++](linked-list-random-node/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/linked-list-random-node/) | ✔️ |
+| 23 | [H-Index](https://leetcode.com/problems/h-index/) | Medium | [C++](h-index/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/h-index/) | ✔️ |
+| 24 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [C++](container-with-most-water/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/container-with-most-water/) | ✔️ |
+| 25 | [Two Sum](https://leetcode.com/problems/two-sum/) | Medium | [C++](two-sum/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/two-sum/) | ✔️ |
+| 26 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | [C++](3sum/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/3sum/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
