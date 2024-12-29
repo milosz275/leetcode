@@ -47,6 +47,7 @@ This is a repository for my solutions to Leetcode problems. I will be solving pr
 | 27 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [C++](best-time-to-buy-and-sell-stock/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/best-time-to-buy-and-sell-stock/) | ✔️ |
 | 28 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Easy | [C++](binary-tree-preorder-traversal/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/binary-tree-preorder-traversal/) | ✔️ |
 | 29 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [C++](climbing-stairs/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/climbing-stairs/) | ✔️ |
+|30 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [C++](binary-tree-level-order-traversal/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/binary-tree-level-order-traversal/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
