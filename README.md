@@ -44,6 +44,9 @@ This is a repository for my solutions to Leetcode problems. I will be solving pr
 | 24 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [C++](container-with-most-water/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/container-with-most-water/) | ✔️ |
 | 25 | [Two Sum](https://leetcode.com/problems/two-sum/) | Medium | [C++](two-sum/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/two-sum/) | ✔️ |
 | 26 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | [C++](3sum/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/3sum/) | ✔️ |
+| 27 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [C++](best-time-to-buy-and-sell-stock/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/best-time-to-buy-and-sell-stock/) | ✔️ |
+| 28 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Easy | [C++](binary-tree-preorder-traversal/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/binary-tree-preorder-traversal/) | ✔️ |
+| 29 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [C++](climbing-stairs/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/climbing-stairs/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
