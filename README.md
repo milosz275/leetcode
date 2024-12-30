@@ -51,6 +51,7 @@ This is a repository for my solutions to Leetcode problems written in C or C++.
 | 29 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [C++](climbing-stairs/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/climbing-stairs/) | ✔️ |
 |30 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [C++](binary-tree-level-order-traversal/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/binary-tree-level-order-traversal/) | ✔️ |
 |31 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [C++](binary-tree-inorder-traversal/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/binary-tree-inorder-traversal/) | ✔️ |
+|32 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | Easy | [C++](binary-tree-postorder-traversal/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/binary-tree-postorder-traversal/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
