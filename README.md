@@ -3,7 +3,7 @@
 [![CodeQL](https://github.com/milosz275/leetcode/actions/workflows/codeql.yml/badge.svg)](https://github.com/milosz275/leetcode/actions/workflows/codeql.yml)
 [![Docs](https://github.com/milosz275/leetcode/actions/workflows/docs.yml/badge.svg)](https://github.com/milosz275/leetcode/actions/workflows/docs.yml)
 
-This is a repository for my solutions to Leetcode problems. I will be solving problems in C, C++ and Python. There will be at least one problem solved every day. Explanations solutions will be provided with documentation generated in Doxygen and Sphinx. CamelCase is used for Leetcode functions and snake_case is the rest of the code.
+This is a repository for my solutions to Leetcode problems written in C or C++.
 
 ## 75
 
@@ -13,6 +13,8 @@ This is a repository for my solutions to Leetcode problems. I will be solving pr
 | 2 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | Easy | [C](greatest-common-divisor-of-strings/main.c) | [Doxygen](https://milosz275.github.io/leetcode/greatest-common-divisor-of-strings/) | ✔️ |
 | 3 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | Easy | [C](kids-with-the-greatest-number-of-candies/main.c) | [Doxygen](https://milosz275.github.io/leetcode/kids-with-the-greatest-number-of-candies/) | ✔️ |
 | 4 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | [C](reverse-words-in-a-string/main.c) | [Doxygen](https://milosz275.github.io/leetcode/reverse-words-in-a-string/) | ✔️ |
+| 5 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Easy | [C++](find-pivot-index/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-pivot-index/) | ✔️ |
+| 6 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [C++](reverse-linked-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/reverse-linked-list/) | ✔️ |
 
 ## All Problems
 
