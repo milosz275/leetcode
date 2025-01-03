@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <stack>
 
 using namespace std;
 
@@ -74,16 +75,18 @@ public:
         if (head == NULL)
             return NULL;
         ListNode* ptr = head;
-        vector<ListNode*> ptrs;
+        stack<ListNode*> ptrs;
         while (ptr != NULL)
         {
-            ptrs.push_back(ptr);
+            ptrs.push(ptr);
             ptr = ptr->next;
         }
-        ListNode* new_head = ptr = ptrs[(int)ptrs.size() - 1];
-        for (int i = (int)ptrs.size() - 2; i >= 0; --i)
+        ListNode* new_head = ptr = ptrs.top();
+        ptrs.pop();
+        while (!ptrs.empty())
         {
-            ptr->next = ptrs[i];
+            ptr->next = ptrs.top();
+            ptrs.pop();
             ptr = ptr->next;
         }
         ptr->next = NULL;

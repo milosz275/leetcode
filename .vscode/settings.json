@@ -53,7 +53,8 @@
         "cinttypes": "cpp",
         "typeinfo": "cpp",
         "map": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "climits": "cpp"
     },
     "cSpell.words": [
         "atoi",
