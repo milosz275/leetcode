@@ -54,6 +54,8 @@ This is a repository for my solutions to Leetcode problems written in C or C++.
 |32 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | Easy | [C++](binary-tree-postorder-traversal/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/binary-tree-postorder-traversal/) | ✔️ |
 |33 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | Medium | [C++](binary-search-tree-iterator/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/binary-search-tree-iterator/) | ✔️ |
 |34 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [C++](validate-binary-search-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/validate-binary-search-tree/) | ✔️ |
+|35 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | [C++](trapping-rain-water/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/trapping-rain-water/) | ✔️ |
+|36 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | [C++](word-break/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/word-break/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License

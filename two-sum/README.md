@@ -41,7 +41,7 @@ You can return the answer in any order.
 
 ## Link
 
-[Two](https://leetcode.com/problems/two-sum/)
+[Two Sum](https://leetcode.com/problems/two-sum/)
 
 ## Solution
 
