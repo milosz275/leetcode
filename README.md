@@ -3,7 +3,7 @@
 [![CodeQL](https://github.com/milosz275/leetcode/actions/workflows/codeql.yml/badge.svg)](https://github.com/milosz275/leetcode/actions/workflows/codeql.yml)
 [![Docs](https://github.com/milosz275/leetcode/actions/workflows/docs.yml/badge.svg)](https://github.com/milosz275/leetcode/actions/workflows/docs.yml)
 
-This is a repository for my solutions to Leetcode problems. I will be solving problems in C, C++ and Python. There will be at least one problem solved every day. Explanations solutions will be provided with documentation generated in Doxygen and Sphinx. CamelCase is used for Leetcode functions and snake_case is the rest of the code.
+This is a repository for my solutions to Leetcode problems written in C or C++.
 
 ## 75
 
@@ -13,6 +13,8 @@ This is a repository for my solutions to Leetcode problems. I will be solving pr
 | 2 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | Easy | [C](greatest-common-divisor-of-strings/main.c) | [Doxygen](https://milosz275.github.io/leetcode/greatest-common-divisor-of-strings/) | ✔️ |
 | 3 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | Easy | [C](kids-with-the-greatest-number-of-candies/main.c) | [Doxygen](https://milosz275.github.io/leetcode/kids-with-the-greatest-number-of-candies/) | ✔️ |
 | 4 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | [C](reverse-words-in-a-string/main.c) | [Doxygen](https://milosz275.github.io/leetcode/reverse-words-in-a-string/) | ✔️ |
+| 5 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Easy | [C++](find-pivot-index/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-pivot-index/) | ✔️ |
+| 6 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [C++](reverse-linked-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/reverse-linked-list/) | ✔️ |
 
 ## All Problems
 
@@ -39,8 +41,21 @@ This is a repository for my solutions to Leetcode problems. I will be solving pr
 | 19 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [C++](valid-anagram/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/valid-anagram/) | ✔️ |
 | 20 | [Sort List](https://leetcode.com/problems/sort-list/) | Medium | [C++](sort-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/sort-list/) | ✔️ |
 | 21 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [C++](palindrome-linked-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/palindrome-linked-list/) | ✔️ |
-| 22 | [H-Index](https://leetcode.com/problems/h-index/) | Medium | [C++](h-index/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/h-index/) | ✔️ |
-| 23 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [C++](container-with-most-water/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/container-with-most-water/) | ✔️ |
+| 22 | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/) | Medium | [C++](linked-list-random-node/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/linked-list-random-node/) | ✔️ |
+| 23 | [H-Index](https://leetcode.com/problems/h-index/) | Medium | [C++](h-index/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/h-index/) | ✔️ |
+| 24 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [C++](container-with-most-water/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/container-with-most-water/) | ✔️ |
+| 25 | [Two Sum](https://leetcode.com/problems/two-sum/) | Medium | [C++](two-sum/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/two-sum/) | ✔️ |
+| 26 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | [C++](3sum/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/3sum/) | ✔️ |
+| 27 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [C++](best-time-to-buy-and-sell-stock/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/best-time-to-buy-and-sell-stock/) | ✔️ |
+| 28 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Easy | [C++](binary-tree-preorder-traversal/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/binary-tree-preorder-traversal/) | ✔️ |
+| 29 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [C++](climbing-stairs/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/climbing-stairs/) | ✔️ |
+|30 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [C++](binary-tree-level-order-traversal/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/binary-tree-level-order-traversal/) | ✔️ |
+|31 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | [C++](binary-tree-inorder-traversal/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/binary-tree-inorder-traversal/) | ✔️ |
+|32 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | Easy | [C++](binary-tree-postorder-traversal/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/binary-tree-postorder-traversal/) | ✔️ |
+|33 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | Medium | [C++](binary-search-tree-iterator/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/binary-search-tree-iterator/) | ✔️ |
+|34 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [C++](validate-binary-search-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/validate-binary-search-tree/) | ✔️ |
+|35 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | [C++](trapping-rain-water/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/trapping-rain-water/) | ✔️ |
+|36 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | [C++](word-break/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/word-break/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
