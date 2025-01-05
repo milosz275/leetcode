@@ -54,7 +54,8 @@
         "typeinfo": "cpp",
         "map": "cpp",
         "list": "cpp",
-        "climits": "cpp"
+        "climits": "cpp",
+        "regex": "cpp"
     },
     "cSpell.words": [
         "atoi",

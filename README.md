@@ -15,6 +15,7 @@ This is a repository for my solutions to Leetcode problems written in C or C++.
 | 4 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | [C](reverse-words-in-a-string/main.c) | [Doxygen](https://milosz275.github.io/leetcode/reverse-words-in-a-string/) | ✔️ |
 | 5 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Easy | [C++](find-pivot-index/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-pivot-index/) | ✔️ |
 | 6 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [C++](reverse-linked-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/reverse-linked-list/) | ✔️ |
+| 7 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | Medium | [C++](maximum-level-sum-of-a-binary-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/maximum-level-sum-of-a-binary-tree/) | ✔️ |
 
 ## All Problems
 
@@ -31,7 +32,7 @@ This is a repository for my solutions to Leetcode problems written in C or C++.
 | 9 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | [C](intersection-of-two-arrays-ii/main.c) | [Doxygen](https://milosz275.github.io/leetcode/intersection-of-two-arrays-ii/) | ✔️ |
 | 10 | [Water Bottles](https://leetcode.com/problems/water-bottles/) | Easy | [C](water-bottles/main.c) | [Doxygen](https://milosz275.github.io/leetcode/water-bottles/) | ✔️ |
 | 11 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | Hard | [C](wildcard-matching/main.c) | [Doxygen](https://milosz275.github.io/leetcode/wildcard-matching/) | ✔️ |
-| 12 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | Medium | [Python](maximum-level-sum-of-a-binary-tree/main.py) | [Sphinx](https://milosz275.github.io/leetcode/maximum-level-sum-of-a-binary-tree/) | ➖ |
+| 12 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | Medium | [C++](maximum-level-sum-of-a-binary-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/maximum-level-sum-of-a-binary-tree/) | ✔️ |
 | 13 | [Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/) | Medium | [C++](maximum-number-of-integers-to-choose-from-a-range-i/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/maximum-number-of-integers-to-choose-from-a-range-i/) | ✔️ |
 | 14 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | Medium | [C++](remove-duplicates-from-sorted-array-ii/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/remove-duplicates-from-sorted-array-ii/) | ✔️ |
 | 15 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | [C++](integer-to-roman/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/integer-to-roman/) | ✔️ |
@@ -56,6 +57,8 @@ This is a repository for my solutions to Leetcode problems written in C or C++.
 |34 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [C++](validate-binary-search-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/validate-binary-search-tree/) | ✔️ |
 |35 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | [C++](trapping-rain-water/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/trapping-rain-water/) | ✔️ |
 |36 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | [C++](word-break/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/word-break/) | ✔️ |
+|37 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | Easy | [C++](sum-of-digits-of-string-after-convert/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/sum-of-digits-of-string-after-convert/) | ✔️ |
+|38 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | [C++](best-time-to-buy-and-sell-stock-ii/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/best-time-to-buy-and-sell-stock-ii/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
