@@ -14,17 +14,17 @@ public:
 
         for (int right = 0; right < n; ++right)
         {
-            // Add the current element to the max deque
+            // add the current element to the max deque
             while (!max_deque.empty() && nums[max_deque.back()] < nums[right])
                 max_deque.pop_back();
             max_deque.push_back(right);
 
-            // Add the current element to the min deque
+            // add the current element to the min deque
             while (!min_deque.empty() && nums[min_deque.back()] > nums[right])
                 min_deque.pop_back();
             min_deque.push_back(right);
 
-            // Shrink the window if the condition is violated
+            // shrink the window if the condition is violated
             while (nums[max_deque.front()] - nums[min_deque.front()] > 2)
             {
                 ++left;
@@ -34,7 +34,7 @@ public:
                     min_deque.pop_front();
             }
 
-            // Count valid subarrays ending at 'right'
+            // count valid subarrays ending at 'right'
             count += (right - left + 1);
         }
         return count;
