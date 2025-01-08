@@ -8,7 +8,7 @@ public:
     int minSubArrayLen(int target, vector<int>& nums)
     {
         int start = 0, end = 0, current_sum = nums[0], minimal_size = 0;
-        while (start < nums.size() && end < nums.size())
+        while (start < (int)nums.size() && end < (int)nums.size())
         {
             // cout << "current window - start: " << start << "; end: " << end << "; sum: " << current_sum << endl;
 
@@ -26,7 +26,7 @@ public:
             else // expand the window
             {
                 end++;
-                if (end < nums.size())
+                if (end < (int)nums.size())
                     current_sum += nums[end];
             }
         }
