@@ -4,3 +4,4 @@ build/
 .notes/
 venv/
 *.bak
+.idea/
