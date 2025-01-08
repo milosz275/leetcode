@@ -59,6 +59,8 @@
     },
     "cSpell.words": [
         "atoi",
+        "deque",
+        "deques",
         "DOXYFILE",
         "Doxygen",
         "Leetcode",
