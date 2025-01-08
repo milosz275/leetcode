@@ -45,4 +45,4 @@ Implement the MyHashMap class:
 
 ## Solution
 
-Solution utilizes two balanced deques to have constant access to middle values.
+Solution utilizes sliding window approach.
