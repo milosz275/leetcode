@@ -14,18 +14,26 @@ public:
     void addNum(int num)
     {
         if (max_heap.empty() || num <= max_heap.top())
+        {
+            cout << "adding " << num << " to max heap" << endl;
             max_heap.push(num);
+        }
         else
+        {
+            cout << "adding " << num << " to min heap" << endl;
             min_heap.push(num);
+        }
 
         // balancing heaps
         if (max_heap.size() > min_heap.size() + 1) 
         {
+            cout << "moving " << max_heap.top() << " from max to min heap" << endl; 
             min_heap.push(max_heap.top());
             max_heap.pop();
         }
         else if (min_heap.size() > max_heap.size())
         {
+            cout << "moving " << min_heap.top() << " from min to max heap" << endl; 
             max_heap.push(min_heap.top());
             min_heap.pop();
         }
