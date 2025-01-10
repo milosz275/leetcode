@@ -9,9 +9,9 @@ public:
     {
         if (matrix.empty() || matrix[0].empty()) return {};
 
-        int m = (int)matrix.size(), n = (int)matrix[0].size();
         vector<int> answer;
-        answer.reserve(m * n);
+        answer.reserve((int)matrix.size() * (int)matrix[0].size());
+        int m = (int)matrix.size(), n = (int)matrix[0].size();
 
         int left = 0, right = n - 1, top = 0, bottom = m - 1;
         while (left <= right && top <= bottom)
