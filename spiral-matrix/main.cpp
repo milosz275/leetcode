@@ -10,7 +10,7 @@ public:
         if (matrix.empty() || matrix[0].empty()) return {};
 
         vector<int> answer;
-        answer.reserve((int)matrix.size() * (int)matrix[0].size());
+        answer.reserve((int)(matrix.size() * matrix[0].size()));
         int m = (int)matrix.size(), n = (int)matrix[0].size();
 
         int left = 0, right = n - 1, top = 0, bottom = m - 1;
