@@ -61,4 +61,4 @@ The given node will always be the first node with val = 1. You must return the c
 
 ## Solution
 
-Solution performs BFS keeping track of original and copied nodes using unmap for pairing them.
+Solution performs BFS keeping track of original and copied nodes using unordered map for pairing them.
