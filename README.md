@@ -87,6 +87,10 @@ This is a repository for my solutions to Leetcode problems written in C or C++.
 |62 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [C++](search-in-rotated-sorted-array/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/search-in-rotated-sorted-array/) | ✔️ |
 |63 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Easy | [C++](unique-number-of-occurrences/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/unique-number-of-occurrences/) | ✔️ |
 |64 | [Word Subsets](https://leetcode.com/problems/word-subsets/) | Medium | [C++](word-subsets/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/word-subsets/) | ✔️ |
+|65 | [Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) | Medium | [C++](find-the-prefix-common-array-of-two-arrays/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-the-prefix-common-array-of-two-arrays/) | ✔️ |
+|66 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [C++](odd-even-linked-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/odd-even-linked-list/) | ✔️ |
+|67 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | Medium | [C++](delete-the-middle-node-of-a-linked-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/delete-the-middle-node-of-a-linked-list/) | ✔️ |
+|68 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | [C++](merge-k-sorted-lists/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/merge-k-sorted-lists/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
