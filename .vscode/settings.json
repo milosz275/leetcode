@@ -55,7 +55,17 @@
         "map": "cpp",
         "list": "cpp",
         "climits": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "bitset": "cpp",
+        "ranges": "cpp",
+        "span": "cpp",
+        "stacktrace": "cpp",
+        "valarray": "cpp",
+        "ctime": "cpp",
+        "iomanip": "cpp",
+        "sstream": "cpp",
+        "source_location": "cpp",
+        "any": "cpp"
     },
     "cSpell.words": [
         "atoi",
@@ -69,6 +79,7 @@
         "rtype",
         "Subarray",
         "subarrays",
+        "tribonacci",
         "venv",
         "Wextra"
     ],
