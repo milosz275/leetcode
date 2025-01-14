@@ -51,3 +51,9 @@ public:
         return true; // no cycle detected
     }
 };
+
+int main()
+{
+
+    return 0;
+}
