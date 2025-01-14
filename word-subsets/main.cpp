@@ -35,6 +35,7 @@ public:
             if (accept)
                 answer.push_back(word);
         }
+        return answer;
     }
 };
 
