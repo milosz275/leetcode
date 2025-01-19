@@ -102,6 +102,7 @@ This is a repository for my solutions to Leetcode problems written in C or C++.
 |77 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [C++](invert-binary-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/invert-binary-tree/) | ✔️ |
 |78 | [Encode and Decode String](https://leetcode.com/problems/encode-and-decode-string/) | Medium | [C++](encode-and-decode-string/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/encode-and-decode-string/) | ✔️ |
 |79 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [C++](contains-duplicate/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/contains-duplicate/) | ✔️ |
+|80 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [C++](find-minimum-in-rotated-sorted-array/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-minimum-in-rotated-sorted-array/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
