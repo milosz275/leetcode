@@ -91,6 +91,17 @@ This is a repository for my solutions to Leetcode problems written in C or C++.
 |66 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [C++](odd-even-linked-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/odd-even-linked-list/) | ✔️ |
 |67 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | Medium | [C++](delete-the-middle-node-of-a-linked-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/delete-the-middle-node-of-a-linked-list/) | ✔️ |
 |68 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | [C++](merge-k-sorted-lists/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/merge-k-sorted-lists/) | ✔️ |
+|69 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [C++](group-anagrams/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/group-anagrams/) | ✔️ |
+|70 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | [C++](kth-largest-element-in-an-array/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/kth-largest-element-in-an-array/) | ✔️ |
+|71 | [Minimize XOR](https://leetcode.com/problems/minimize-xor/) | Medium | [C++](minimize-xor/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/minimize-xor/) | ✔️ |
+|72 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [C++](valid-parentheses/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/valid-parentheses/) | ✔️ |
+|73 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | [C++](remove-nth-node-from-end-of-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/remove-nth-node-from-end-of-list/) | ✔️ |
+|74 | [Simplified Fractions](https://leetcode.com/problems/simplified-fractions/) | Medium | [C++](simplified-fractions/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/simplified-fractions/) | ✔️ |
+|75 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [C++](top-k-frequent-elements/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/top-k-frequent-elements/) | ✔️ |
+|76 | [Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard | [C++](minimum-cost-to-make-at-least-one-valid-path-in-a-grid/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | ✔️ |
+|77 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [C++](invert-binary-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/invert-binary-tree/) | ✔️ |
+|78 | [Encode and Decode String](https://leetcode.com/problems/encode-and-decode-string/) | Medium | [C++](encode-and-decode-string/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/encode-and-decode-string/) | ✔️ |
+|79 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [C++](contains-duplicate/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/contains-duplicate/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
