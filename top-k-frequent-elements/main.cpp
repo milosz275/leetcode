@@ -17,10 +17,10 @@ public:
         };
         priority_queue<pair<int, int>, vector<pair<int, int>>, decltype(comparator)> min_heap(comparator);
 
-        for (const pair<int, int>& occ: occurrences)
+        for (const pair<const int, int>& occ: occurrences)
         {
             min_heap.push(occ);
-            if (min_heap.size() > k)
+            if ((int)min_heap.size() > k)
                 min_heap.pop(); // remove the least frequent element if size exceeds k
         }
 
