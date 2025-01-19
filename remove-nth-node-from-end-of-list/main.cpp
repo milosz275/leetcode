@@ -22,10 +22,9 @@ public:
         // two pointers
         ListNode* current = head;
         ListNode* remove_next = head; // (n - 1)th from the end
-        int i = 0;
 
         // move n steps ahead to maintain wanted gap
-        for (int j = 0; j < n; ++j)
+        for (int i = 0; i < n; ++i)
         {
             if (current == nullptr)
                 return head; // n is larger than the length of the list
