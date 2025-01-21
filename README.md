@@ -103,6 +103,8 @@ This is a repository for my solutions to Leetcode problems written in C or C++.
 |78 | [Encode and Decode String](https://leetcode.com/problems/encode-and-decode-string/) | Medium | [C++](encode-and-decode-string/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/encode-and-decode-string/) | ✔️ |
 |79 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [C++](contains-duplicate/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/contains-duplicate/) | ✔️ |
 |80 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [C++](find-minimum-in-rotated-sorted-array/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-minimum-in-rotated-sorted-array/) | ✔️ |
+|81 | [First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column/) | Medium | [C++](first-completely-painted-row-or-column/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/first-completely-painted-row-or-column/) | ✔️ |
+|82 | [Grid Game](https://leetcode.com/problems/grid-game/) | Medium | [C++](grid-game/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/grid-game/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
