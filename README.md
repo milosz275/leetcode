@@ -105,6 +105,7 @@ This is a repository for my solutions to Leetcode problems written in C or C++.
 |80 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [C++](find-minimum-in-rotated-sorted-array/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-minimum-in-rotated-sorted-array/) | ✔️ |
 |81 | [First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column/) | Medium | [C++](first-completely-painted-row-or-column/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/first-completely-painted-row-or-column/) | ✔️ |
 |82 | [Grid Game](https://leetcode.com/problems/grid-game/) | Medium | [C++](grid-game/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/grid-game/) | ✔️ |
+|83 | [Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/) | Medium | [C++](map-of-highest-peak/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/map-of-highest-peak/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
