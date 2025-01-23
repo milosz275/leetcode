@@ -3,7 +3,7 @@
 [![CodeQL](https://github.com/milosz275/leetcode/actions/workflows/codeql.yml/badge.svg)](https://github.com/milosz275/leetcode/actions/workflows/codeql.yml)
 [![Docs](https://github.com/milosz275/leetcode/actions/workflows/docs.yml/badge.svg)](https://github.com/milosz275/leetcode/actions/workflows/docs.yml)
 
-This is a repository for my solutions to Leetcode problems written in C or C++.
+This is a repository for my solutions to Leetcode problems written in C or C++. My Leetcode profile: [milosz275](https://leetcode.com/u/mlsh/)
 
 ## 75
 
@@ -106,6 +106,8 @@ This is a repository for my solutions to Leetcode problems written in C or C++.
 |81 | [First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column/) | Medium | [C++](first-completely-painted-row-or-column/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/first-completely-painted-row-or-column/) | ✔️ |
 |82 | [Grid Game](https://leetcode.com/problems/grid-game/) | Medium | [C++](grid-game/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/grid-game/) | ✔️ |
 |83 | [Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/) | Medium | [C++](map-of-highest-peak/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/map-of-highest-peak/) | ✔️ |
+|84 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [C++](move-zeroes/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/move-zeroes/) | ✔️ |
+|85 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) | Medium | [C++](count-servers-that-communicate/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/count-servers-that-communicate/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
