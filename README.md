@@ -3,7 +3,7 @@
 [![CodeQL](https://github.com/milosz275/leetcode/actions/workflows/codeql.yml/badge.svg)](https://github.com/milosz275/leetcode/actions/workflows/codeql.yml)
 [![Docs](https://github.com/milosz275/leetcode/actions/workflows/docs.yml/badge.svg)](https://github.com/milosz275/leetcode/actions/workflows/docs.yml)
 
-This is a repository for my solutions to Leetcode problems written in C or C++.
+This is a repository for my solutions to Leetcode problems written in C or C++. My Leetcode profile: [milosz275](https://leetcode.com/u/mlsh/)
 
 ## 75
 
@@ -87,6 +87,27 @@ This is a repository for my solutions to Leetcode problems written in C or C++.
 |62 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [C++](search-in-rotated-sorted-array/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/search-in-rotated-sorted-array/) | ✔️ |
 |63 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Easy | [C++](unique-number-of-occurrences/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/unique-number-of-occurrences/) | ✔️ |
 |64 | [Word Subsets](https://leetcode.com/problems/word-subsets/) | Medium | [C++](word-subsets/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/word-subsets/) | ✔️ |
+|65 | [Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) | Medium | [C++](find-the-prefix-common-array-of-two-arrays/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-the-prefix-common-array-of-two-arrays/) | ✔️ |
+|66 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [C++](odd-even-linked-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/odd-even-linked-list/) | ✔️ |
+|67 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | Medium | [C++](delete-the-middle-node-of-a-linked-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/delete-the-middle-node-of-a-linked-list/) | ✔️ |
+|68 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | [C++](merge-k-sorted-lists/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/merge-k-sorted-lists/) | ✔️ |
+|69 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [C++](group-anagrams/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/group-anagrams/) | ✔️ |
+|70 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | [C++](kth-largest-element-in-an-array/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/kth-largest-element-in-an-array/) | ✔️ |
+|71 | [Minimize XOR](https://leetcode.com/problems/minimize-xor/) | Medium | [C++](minimize-xor/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/minimize-xor/) | ✔️ |
+|72 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [C++](valid-parentheses/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/valid-parentheses/) | ✔️ |
+|73 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | [C++](remove-nth-node-from-end-of-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/remove-nth-node-from-end-of-list/) | ✔️ |
+|74 | [Simplified Fractions](https://leetcode.com/problems/simplified-fractions/) | Medium | [C++](simplified-fractions/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/simplified-fractions/) | ✔️ |
+|75 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [C++](top-k-frequent-elements/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/top-k-frequent-elements/) | ✔️ |
+|76 | [Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | Hard | [C++](minimum-cost-to-make-at-least-one-valid-path-in-a-grid/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | ✔️ |
+|77 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [C++](invert-binary-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/invert-binary-tree/) | ✔️ |
+|78 | [Encode and Decode String](https://leetcode.com/problems/encode-and-decode-string/) | Medium | [C++](encode-and-decode-string/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/encode-and-decode-string/) | ✔️ |
+|79 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [C++](contains-duplicate/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/contains-duplicate/) | ✔️ |
+|80 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [C++](find-minimum-in-rotated-sorted-array/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-minimum-in-rotated-sorted-array/) | ✔️ |
+|81 | [First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column/) | Medium | [C++](first-completely-painted-row-or-column/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/first-completely-painted-row-or-column/) | ✔️ |
+|82 | [Grid Game](https://leetcode.com/problems/grid-game/) | Medium | [C++](grid-game/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/grid-game/) | ✔️ |
+|83 | [Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/) | Medium | [C++](map-of-highest-peak/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/map-of-highest-peak/) | ✔️ |
+|84 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [C++](move-zeroes/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/move-zeroes/) | ✔️ |
+|85 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) | Medium | [C++](count-servers-that-communicate/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/count-servers-that-communicate/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
