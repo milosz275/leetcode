@@ -15,8 +15,8 @@ public:
             {
                 if (grid[i][j] == 1)
                 {
-                    col_count[i]++;
-                    row_count[j]++;
+                    row_count[i]++;
+                    col_count[j]++;
                 }
             }
         }
@@ -25,7 +25,7 @@ public:
         {
             for (int j = 0; j < (int)grid[0].size(); ++j)
             {
-                if (grid[i][j] == 1 && (col_count[i] > 1 || row_count[j] > 1))
+                if (grid[i][j] == 1 && (row_count[i] > 1 || col_count[j] > 1))
                     counter++;
             }
         }
