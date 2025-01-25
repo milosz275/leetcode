@@ -108,6 +108,8 @@ This is a repository for my solutions to Leetcode problems written in C or C++. 
 |83 | [Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/) | Medium | [C++](map-of-highest-peak/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/map-of-highest-peak/) | ✔️ |
 |84 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [C++](move-zeroes/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/move-zeroes/) | ✔️ |
 |85 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) | Medium | [C++](count-servers-that-communicate/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/count-servers-that-communicate/) | ✔️ |
+|86 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | Medium | [C++](find-eventual-safe-states/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-eventual-safe-states/) | ✔️ |
+|87 | [Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | Medium | [C++](make-lexicographically-smallest-array-by-swapping-elements/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/make-lexicographically-smallest-array-by-swapping-elements/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
