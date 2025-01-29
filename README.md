@@ -110,6 +110,8 @@ This is a repository for my solutions to Leetcode problems written in C or C++. 
 |85 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) | Medium | [C++](count-servers-that-communicate/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/count-servers-that-communicate/) | ✔️ |
 |86 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | Medium | [C++](find-eventual-safe-states/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-eventual-safe-states/) | ✔️ |
 |87 | [Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | Medium | [C++](make-lexicographically-smallest-array-by-swapping-elements/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/make-lexicographically-smallest-array-by-swapping-elements/) | ✔️ |
+|88 | [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/) | Medium | [C++](course-schedule-iv/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/course-schedule-iv/) | ✔️ |
+|89 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | [C++](binary-search/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/binary-search/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
