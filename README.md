@@ -112,6 +112,7 @@ This is a repository for my solutions to Leetcode problems written in C or C++. 
 |87 | [Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | Medium | [C++](make-lexicographically-smallest-array-by-swapping-elements/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/make-lexicographically-smallest-array-by-swapping-elements/) | ✔️ |
 |88 | [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/) | Medium | [C++](course-schedule-iv/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/course-schedule-iv/) | ✔️ |
 |89 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | [C++](binary-search/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/binary-search/) | ✔️ |
+|90 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/) | Easy | [C++](maximum-count-of-positive-integer-and-negative-integer/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/maximum-count-of-positive-integer-and-negative-integer/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
