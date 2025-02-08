@@ -36,4 +36,4 @@ Return true if it is possible to make both strings equal by performing at most o
 
 ## Link
 
-[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/product-of-array-except-self/)
+[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)
