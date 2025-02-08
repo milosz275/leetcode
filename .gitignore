@@ -1,7 +1,7 @@
 *.out
 *.exe
-build/
-.notes/
-venv/
+build
+.notes
+venv
 *.bak
-.idea/
+.idea

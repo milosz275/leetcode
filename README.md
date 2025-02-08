@@ -5,7 +5,7 @@
 
 This is a repository for my solutions to Leetcode problems written in C or C++. My Leetcode profile: [milosz275](https://leetcode.com/u/mlsh/)
 
-## 75
+<!-- ## 75
 
 | # | Title | Difficulty | Langs | Docs | Passed |
 |---| ----- | ---------- | ----- | ---- | ------ |
@@ -13,17 +13,30 @@ This is a repository for my solutions to Leetcode problems written in C or C++. 
 | 2 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | Easy | [C](greatest-common-divisor-of-strings/main.c) | [Doxygen](https://milosz275.github.io/leetcode/greatest-common-divisor-of-strings/) | ✔️ |
 | 3 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | Easy | [C](kids-with-the-greatest-number-of-candies/main.c) | [Doxygen](https://milosz275.github.io/leetcode/kids-with-the-greatest-number-of-candies/) | ✔️ |
 | 4 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | [C](reverse-words-in-a-string/main.c) | [Doxygen](https://milosz275.github.io/leetcode/reverse-words-in-a-string/) | ✔️ |
-| 5 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Medium | [C](is-subsequence/main.c) | [Doxygen](https://milosz275.github.io/leetcode/is-subsequence/) | ✔️ |
-| 6 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [C](container-with-most-water/main.c) | [Doxygen](https://milosz275.github.io/leetcode/container-with-most-water/) | ✔️ |
-| 7 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Easy | [C++](find-pivot-index/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-pivot-index/) | ✔️ |
-| 8 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [C++](reverse-linked-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/reverse-linked-list/) | ✔️ |
-| 9 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | Medium | [C++](maximum-level-sum-of-a-binary-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/maximum-level-sum-of-a-binary-tree/) | ✔️ |
+| 5 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [C++](move-zeroes/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/move-zeroes/) | ✔️ |
+| 6 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Medium | [C](is-subsequence/main.c) | [Doxygen](https://milosz275.github.io/leetcode/is-subsequence/) | ✔️ |
+| 7 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [C](container-with-most-water/main.c) | [Doxygen](https://milosz275.github.io/leetcode/container-with-most-water/) | ✔️ |
+| 8 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Easy | [C++](find-pivot-index/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-pivot-index/) | ✔️ |
+| 9 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Easy | [C++](unique-number-of-occurrences/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/unique-number-of-occurrences/) | ✔️ |
+|10 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | Easy | [C++](removing-stars-from-a-string/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/removing-stars-from-a-string/) | ✔️ |
+|11 | [Decode String](https://leetcode.com/problems/decode-string/) | Medium | [C++](decode-string/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/decode-string/) | ✔️ |
+|12 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | Easy | [C++](number-of-recent-calls/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/number-of-recent-calls/) | ✔️ |
+|13 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | Medium | [C++](delete-the-middle-node-of-a-linked-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/delete-the-middle-node-of-a-linked-list/) | ✔️ |
+|14 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [C++](odd-even-linked-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/odd-even-linked-list/) | ✔️ |
+|15 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [C++](reverse-linked-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/reverse-linked-list/) | ✔️ |
+|16 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | Medium | [C++](maximum-level-sum-of-a-binary-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/maximum-level-sum-of-a-binary-tree/) | ✔️ |
+|17 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | [C++](kth-largest-element-in-an-array/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/kth-largest-element-in-an-array/) | ✔️ |
+|18 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | Easy | [C++](guess-number-higher-or-lower/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/guess-number-higher-or-lower/) | ✔️ |
+|19 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy | [C++](n-th-tribonacci-number/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/n-th-tribonacci-number/) | ✔️ |
+|20 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | [C++](longest-common-subsequence/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/longest-common-subsequence/) | ✔️ |
+|21 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | [C++](counting-bits/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/counting-bits/) | ✔️ |
+|22 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [C++](daily-temperatures/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/daily-temperatures/) | ✔️ | -->
 
 ## All Problems
 
 | # | Title | Difficulty | Langs | Docs | Passed |
 |---| ----- | ---------- | ----- | ---- | ------ |
-| 1 | [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | Hard | [C](count-of-range-sum/main.c) | [Doxygen](https://milosz275.github.io/leetcode/count-of-range-sum/) | ❌ |
+| 1 | [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | Hard | [C++](count-of-range-sum/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/count-of-range-sum/) | ✔️ |
 | 2 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | Medium | [C](subarray-product-less-than-k/main.c) | [Doxygen](https://milosz275.github.io/leetcode/subarray-product-less-than-k/) | ✔️ |
 | 3 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | [C](reverse-integer/main.c) | [Doxygen](https://milosz275.github.io/leetcode/reverse-integer/) | ✔️ |
 | 4 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | [C](merge-strings-alternately/main.c) | [Doxygen](https://milosz275.github.io/leetcode/merge-strings-alternately/) | ✔️ |
@@ -113,6 +126,12 @@ This is a repository for my solutions to Leetcode problems written in C or C++. 
 |88 | [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/) | Medium | [C++](course-schedule-iv/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/course-schedule-iv/) | ✔️ |
 |89 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | [C++](binary-search/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/binary-search/) | ✔️ |
 |90 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/) | Easy | [C++](maximum-count-of-positive-integer-and-negative-integer/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/maximum-count-of-positive-integer-and-negative-integer/) | ✔️ |
+|91 | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/) | Easy | [C++](maximum-ascending-subarray-sum/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/maximum-ascending-subarray-sum/) | ✔️ |
+|92 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | Easy | [C++](removing-stars-from-a-string/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/removing-stars-from-a-string/) | ✔️ |
+|93 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | Easy | [C++](check-if-one-string-swap-can-make-strings-equal/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/check-if-one-string-swap-can-make-strings-equal/) | ✔️ |
+|94 | [Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/) | Medium | [C++](tuple-with-same-product/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/tuple-with-same-product/) | ✔️ |
+|95 | [Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/) | Medium | [C++](find-the-number-of-distinct-colors-among-the-balls/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-the-number-of-distinct-colors-among-the-balls/) | ✔️ |
+|96 | [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/) | Medium | [C++](design-a-number-container-system/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/design-a-number-container-system/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
