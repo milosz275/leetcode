@@ -7,6 +7,7 @@ class Solution
 public:
     vector<int> queryResults(int limit, vector<vector<int>>& queries)
     {
+        limit = limit; // not needed
         vector<int> result;
         unordered_map<int, int> balls;
         unordered_map<int, int> colors;
@@ -40,8 +41,7 @@ int main()
 {
     // vector<vector<int>> queries = {{1, 4}, {2, 5}, {1, 3}, {3, 4}};
     vector<vector<int>> queries = {{0, 1}, {1, 2}, {2, 2}, {3, 4}, {4, 5}};
-    int limit = 4;
-    vector<int> result = Solution().queryResults(limit, queries);
+    vector<int> result = Solution().queryResults(4, queries);
     for (int el: result)
         cout << el << ' ';
     cout << '\n';
