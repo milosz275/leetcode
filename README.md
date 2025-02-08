@@ -5,7 +5,7 @@
 
 This is a repository for my solutions to Leetcode problems written in C or C++. My Leetcode profile: [milosz275](https://leetcode.com/u/mlsh/)
 
-## 75
+<!-- ## 75
 
 | # | Title | Difficulty | Langs | Docs | Passed |
 |---| ----- | ---------- | ----- | ---- | ------ |
@@ -30,7 +30,7 @@ This is a repository for my solutions to Leetcode problems written in C or C++. 
 |19 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy | [C++](n-th-tribonacci-number/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/n-th-tribonacci-number/) | ✔️ |
 |20 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | [C++](longest-common-subsequence/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/longest-common-subsequence/) | ✔️ |
 |21 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | [C++](counting-bits/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/counting-bits/) | ✔️ |
-|22 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [C++](daily-temperatures/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/daily-temperatures/) | ✔️ |
+|22 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [C++](daily-temperatures/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/daily-temperatures/) | ✔️ | -->
 
 ## All Problems
 
@@ -128,6 +128,10 @@ This is a repository for my solutions to Leetcode problems written in C or C++. 
 |90 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/) | Easy | [C++](maximum-count-of-positive-integer-and-negative-integer/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/maximum-count-of-positive-integer-and-negative-integer/) | ✔️ |
 |91 | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/) | Easy | [C++](maximum-ascending-subarray-sum/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/maximum-ascending-subarray-sum/) | ✔️ |
 |92 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | Easy | [C++](removing-stars-from-a-string/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/removing-stars-from-a-string/) | ✔️ |
+|93 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | Easy | [C++](check-if-one-string-swap-can-make-strings-equal/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/check-if-one-string-swap-can-make-strings-equal/) | ✔️ |
+|94 | [Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/) | Medium | [C++](tuple-with-same-product/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/tuple-with-same-product/) | ✔️ |
+|95 | [Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/) | Medium | [C++](find-the-number-of-distinct-colors-among-the-balls/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-the-number-of-distinct-colors-among-the-balls/) | ✔️ |
+|96 | [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/) | Medium | [C++](design-a-number-container-system/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/design-a-number-container-system/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
