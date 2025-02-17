@@ -84,5 +84,12 @@
         "venv",
         "Wextra"
     ],
-    "github.copilot.editor.enableAutoCompletions": false
+    "github.copilot.editor.enableAutoCompletions": false,
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#d4d4d4",
+        "activityBarBadge.background": "#007acc",
+        "activityBarBadge.foreground": "#ffffff",
+        "statusBar.background": "#252526",
+        "statusBar.foreground": "#d4d4d4"
+    }
 }
