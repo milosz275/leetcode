@@ -132,6 +132,9 @@ This is a repository for my solutions to Leetcode problems written in C or C++. 
 |94 | [Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/) | Medium | [C++](tuple-with-same-product/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/tuple-with-same-product/) | ✔️ |
 |95 | [Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/) | Medium | [C++](find-the-number-of-distinct-colors-among-the-balls/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-the-number-of-distinct-colors-among-the-balls/) | ✔️ |
 |96 | [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/) | Medium | [C++](design-a-number-container-system/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/design-a-number-container-system/) | ✔️ |
+|97 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Medium | [C](is-subsequence/main.c) | [Doxygen](https://milosz275.github.io/leetcode/is-subsequence/) | ✔️ |
+|98 | [Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/) | Medium | [C++](letter-tile-possibilities/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/letter-tile-possibilities/) | ✔️ |
+|99 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [C++](reorder-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/reorder-list/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
