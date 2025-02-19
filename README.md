@@ -5,7 +5,7 @@
 
 This is a repository for my solutions to Leetcode problems written in C or C++. My Leetcode profile: [milosz275](https://leetcode.com/u/mlsh/)
 
-<!-- ## 75
+## 75
 
 | # | Title | Difficulty | Langs | Docs | Passed |
 |---| ----- | ---------- | ----- | ---- | ------ |
@@ -30,7 +30,7 @@ This is a repository for my solutions to Leetcode problems written in C or C++. 
 |19 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy | [C++](n-th-tribonacci-number/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/n-th-tribonacci-number/) | ✔️ |
 |20 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | [C++](longest-common-subsequence/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/longest-common-subsequence/) | ✔️ |
 |21 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | [C++](counting-bits/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/counting-bits/) | ✔️ |
-|22 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [C++](daily-temperatures/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/daily-temperatures/) | ✔️ | -->
+|22 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [C++](daily-temperatures/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/daily-temperatures/) | ✔️ |
 
 ## All Problems
 
@@ -133,8 +133,8 @@ This is a repository for my solutions to Leetcode problems written in C or C++. 
 |95 | [Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls/) | Medium | [C++](find-the-number-of-distinct-colors-among-the-balls/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-the-number-of-distinct-colors-among-the-balls/) | ✔️ |
 |96 | [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system/) | Medium | [C++](design-a-number-container-system/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/design-a-number-container-system/) | ✔️ |
 |97 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Medium | [C](is-subsequence/main.c) | [Doxygen](https://milosz275.github.io/leetcode/is-subsequence/) | ✔️ |
-|98 | [Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/) | Medium | [C++](letter-tile-possibilities/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/letter-tile-possibilities/) | ✔️ |
-|99 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [C++](reorder-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/reorder-list/) | ✔️ |
+|98 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [C++](reorder-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/reorder-list/) | ✔️ |
+|99 | [The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium | [C++](the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
