@@ -32,34 +32,38 @@ public:
         int level = 1;
         while (!steps.empty())
         {
-            auto [x, y] = steps.front();
-            steps.pop();
-            // cout << "Current x: " << x << "; current y: " << y << endl;
+            int size = steps.size();
+            for (int i = 0; i < size; ++i)
+            {
+                auto [x, y] = steps.front();
+                steps.pop();
+                // cout << "Current x: " << x << "; current y: " << y << endl;
 
-            if (x == 0 || y == 0 || x == m - 1 || y == n - 1)
-                return level;
-                
-            if (x - 1 >= 0 && maze[x - 1][y] == '.' && !(visited[x - 1][y]))
-            {
-                steps.push({x - 1, y});
-                visited[x - 1][y] = true;
+                if (x == 0 || y == 0 || x == m - 1 || y == n - 1)
+                    return level;
+                    
+                if (x - 1 >= 0 && maze[x - 1][y] == '.' && !(visited[x - 1][y]))
+                {
+                    steps.push({x - 1, y});
+                    visited[x - 1][y] = true;
+                }
+                if (x + 1 < m && maze[x + 1][y] == '.' && !(visited[x + 1][y]))
+                {
+                    steps.push({x + 1, y});
+                    visited[x + 1][y] = true;
+                }
+                if (y - 1 >= 0 && maze[x][y - 1] == '.' && !(visited[x][y - 1]))
+                {
+                    steps.push({x, y - 1});
+                    visited[x][y - 1] = true;
+                }
+                if (y + 1 < n && maze[x][y + 1] == '.' && !(visited[x][y + 1]))
+                {
+                    steps.push({x, y + 1});
+                    visited[x][y + 1] = true;    
+                }
             }
-            if (x + 1 < m && maze[x + 1][y] == '.' && !(visited[x + 1][y]))
-            {
-                steps.push({x + 1, y});
-                visited[x + 1][y] = true;
-            }
-            if (y - 1 >= 0 && maze[x][y - 1] == '.' && !(visited[x][y - 1]))
-            {
-                steps.push({x, y - 1});
-                visited[x][y - 1] = true;
-            }
-            if (y + 1 < n && maze[x][y + 1] == '.' && !(visited[x][y + 1]))
-            {
-                steps.push({x, y + 1});
-                visited[x][y + 1] = true;    
-            }
-
+            // level is only incremented when whole level is handled
             level++;
         }
         return -1;
