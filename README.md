@@ -135,6 +135,7 @@ This is a repository for my solutions to Leetcode problems written in C or C++. 
 |97 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Medium | [C](is-subsequence/main.c) | [Doxygen](https://milosz275.github.io/leetcode/is-subsequence/) | ✔️ |
 |98 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [C++](reorder-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/reorder-list/) | ✔️ |
 |99 | [The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium | [C++](the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | ✔️ |
+|100| [Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/) | Medium | [C++](nearest-exit-from-entrance-in-maze/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/nearest-exit-from-entrance-in-maze/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
