@@ -40,4 +40,4 @@ Given an array of strings nums containing n unique binary strings each of length
 
 ## Solution
 
-Solution find the smallest possible binary that is not in the set. Could be optimized by implementing binary search.
+Solution finds the smallest possible binary that is not in the set. Could be optimized by implementing binary search.
