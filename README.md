@@ -136,6 +136,8 @@ This is a repository for my solutions to Leetcode problems written in C or C++. 
 |98 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [C++](reorder-list/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/reorder-list/) | ✔️ |
 |99 | [The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium | [C++](the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | ✔️ |
 |100| [Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/) | Medium | [C++](nearest-exit-from-entrance-in-maze/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/nearest-exit-from-entrance-in-maze/) | ✔️ |
+|101| [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/) | Medium | [C++](find-unique-binary-string/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-unique-binary-string/) | ✔️ |
+|102| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [C++](maximum-depth-of-binary-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/maximum-depth-of-binary-tree/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
