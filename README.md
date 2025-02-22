@@ -139,6 +139,7 @@ This is a repository for my solutions to Leetcode problems written in C or C++. 
 |101| [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/) | Medium | [C++](find-unique-binary-string/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-unique-binary-string/) | ✔️ |
 |102| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [C++](maximum-depth-of-binary-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/maximum-depth-of-binary-tree/) | ✔️ |
 |103| [Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/) | Medium | [C++](find-elements-in-a-contaminated-binary-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-elements-in-a-contaminated-binary-tree/) | ✔️ |
+|104| [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [C++](same-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/same-tree/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
