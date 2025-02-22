@@ -22,12 +22,12 @@ public:
         int i = 0;
 
         // interate through traversal string
-        while (i < traversal.size())
+        while (i < (int)traversal.size())
         {
             int level = 0;
 
             // count the dashes to determine current level
-            while (i < traversal.size() && traversal[i] == '-')
+            while (i < (int)traversal.size() && traversal[i] == '-')
             {
                 level++;
                 i++;
@@ -36,7 +36,7 @@ public:
             int value = 0;
 
             // parse numeric value of current node
-            while (i < traversal.size() && isdigit(traversal[i]))
+            while (i < (int)traversal.size() && isdigit(traversal[i]))
             {
                 value = value * 10 + (traversal[i] - '0');
                 i++;
@@ -61,7 +61,7 @@ public:
         }
 
         // drop all elements of the stack to uncover the root
-        while (st.size() > 1)
+        while ((int)st.size() > 1)
             st.pop();
         return st.top().first;
     }
