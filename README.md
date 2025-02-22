@@ -3,7 +3,7 @@
 [![CodeQL](https://github.com/milosz275/leetcode/actions/workflows/codeql.yml/badge.svg)](https://github.com/milosz275/leetcode/actions/workflows/codeql.yml)
 [![Docs](https://github.com/milosz275/leetcode/actions/workflows/docs.yml/badge.svg)](https://github.com/milosz275/leetcode/actions/workflows/docs.yml)
 
-This is a repository for my solutions to Leetcode problems written in C or C++. My Leetcode profile: [milosz275](https://leetcode.com/u/mlsh/)
+This is a repository for my solutions to Leetcode problems written in C, C++, Python and SQL. Leetcode profile: [mlsh](https://leetcode.com/u/mlsh/)
 
 ## 75
 
@@ -140,6 +140,7 @@ This is a repository for my solutions to Leetcode problems written in C or C++. 
 |102| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [C++](maximum-depth-of-binary-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/maximum-depth-of-binary-tree/) | ✔️ |
 |103| [Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/) | Medium | [C++](find-elements-in-a-contaminated-binary-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-elements-in-a-contaminated-binary-tree/) | ✔️ |
 |104| [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [C++](same-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/same-tree/) | ✔️ |
+|104| [Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/) | Easy | [C++](recover-a-tree-from-preorder-traversal/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/recover-a-tree-from-preorder-traversal/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
