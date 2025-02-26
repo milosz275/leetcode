@@ -150,6 +150,7 @@ This is a repository for my solutions to Leetcode problems written in C, C++, Py
 | 105| [Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/) | Hard | [C++](recover-a-tree-from-preorder-traversal/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/recover-a-tree-from-preorder-traversal/) | ✔️ |
 | 106| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [C++](maximum-subarray/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/maximum-subarray/) | ✔️ |
 | 107| [Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/) | Medium | [C++](maximum-absolute-sum-of-any-subarray/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/maximum-absolute-sum-of-any-subarray/) | ✔️ |
+| 108| [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | Medium | [C++](graph-valid-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/graph-valid-tree/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
