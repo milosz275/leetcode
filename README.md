@@ -34,8 +34,10 @@ This is a repository for my solutions to Leetcode problems written in C, C++, Py
 
 ## SQL 50
 
-| 1 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | Easy | [SQL](recyclable-and-low-fat-products/main.cpp) | N/A | ✔️ |
-| 2 | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | Easy | [SQL](find-customer-referee/main.cpp) | N/A | ✔️ |
+| #  | Title | Difficulty | Langs | Docs | Passed |
+|----| ----- | ---------- | ----- | ---- | ------ |
+| 1 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/) | Easy | [SQL](recyclable-and-low-fat-products/main.cpp) | ➖ | ✔️ |
+| 2 | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | Easy | [SQL](find-customer-referee/main.cpp) | ➖ | ✔️ |
 
 ## All Problems
 
