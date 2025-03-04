@@ -157,6 +157,7 @@ This is a repository for my solutions to Leetcode problems written in C, C++, Py
 | 112| [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | [C++](implement-trie-prefix-tree/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/implement-trie-prefix-tree/) | ✔️ |
 | 113| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [C++](reverse-nodes-in-k-group/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/reverse-nodes-in-k-group/) | ✔️ |
 | 114| [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | Medium | [C++](partition-array-according-to-given-pivot/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/partition-array-according-to-given-pivot/) | ✔️ |
+| 115| [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | Medium | [C++](check-if-number-is-a-sum-of-powers-of-three/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/check-if-number-is-a-sum-of-powers-of-three/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
