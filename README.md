@@ -159,6 +159,7 @@ This is a repository for my solutions to Leetcode problems written in C, C++, Py
 | 114| [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | Medium | [C++](partition-array-according-to-given-pivot/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/partition-array-according-to-given-pivot/) | ✔️ |
 | 115| [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | Medium | [C++](check-if-number-is-a-sum-of-powers-of-three/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/check-if-number-is-a-sum-of-powers-of-three/) | ✔️ |
 | 116| [Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/) | Medium | [C++](count-total-number-of-colored-cells/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/count-total-number-of-colored-cells/) | ✔️ |
+| 117| [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | Easy | [C++](find-missing-and-repeated-values/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-missing-and-repeated-values/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
