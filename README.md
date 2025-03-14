@@ -160,6 +160,7 @@ This is a repository for my solutions to Leetcode problems written in C, C++, Py
 | 115| [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | Medium | [C++](check-if-number-is-a-sum-of-powers-of-three/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/check-if-number-is-a-sum-of-powers-of-three/) | ✔️ |
 | 116| [Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/) | Medium | [C++](count-total-number-of-colored-cells/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/count-total-number-of-colored-cells/) | ✔️ |
 | 117| [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | Easy | [C++](find-missing-and-repeated-values/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/find-missing-and-repeated-values/) | ✔️ |
+| 118| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [C](search-a-2d-matrix/main.c) | [Doxygen](https://milosz275.github.io/leetcode/search-a-2d-matrix/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
