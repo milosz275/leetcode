@@ -5,3 +5,5 @@ build
 venv
 *.bak
 .idea
+.vscode
+.vs
