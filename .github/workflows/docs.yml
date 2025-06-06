@@ -34,6 +34,11 @@ jobs:
           cd doxygen-awesome-css
           sudo make install
 
+      - name: Install mkdocs dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install mkdocs mkdocstrings mkdocstrings-python mkdocs-material
+
       - name: Run generate.sh
         run: docs/generate.sh
 
