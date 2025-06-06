@@ -7,3 +7,9 @@ venv
 .idea
 .vscode
 .vs
+docs/*
+!docs/app.js
+!docs/generate.sh
+!docs/index.html
+!docs/leetcode.png
+!docs/styles.css
