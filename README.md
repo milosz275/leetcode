@@ -163,6 +163,7 @@ This is a repository for my solutions to Leetcode problems written in C, C++, Py
 | 118| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [C](search-a-2d-matrix/main.c) | [Doxygen](https://milosz275.github.io/leetcode/search-a-2d-matrix/) | ✔️ |
 | 119| [Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) | Medium | [C++](lowest-common-ancestor-of-deepest-leaves/main.cpp) | [Doxygen](https://milosz275.github.io/leetcode/lowest-common-ancestor-of-deepest-leaves/) | ✔️ |
 | 120| [Type of Triangle](https://leetcode.com/problems/type-of-triangle/) | Easy | [Python](type-of-triangle/main.py) | [MkDocs](https://milosz275.github.io/leetcode/type-of-triangle/) | ✔️ |
+| 121| [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | Easy | [Python](find-the-index-of-the-first-occurrence-in-a-string/main.py) | [MkDocs](https://milosz275.github.io/leetcode/find-the-index-of-the-first-occurrence-in-a-string/) | ✔️ |
 <!-- This marks table end for milosz275.github.io/leetcode scraper -->
 
 ## License
